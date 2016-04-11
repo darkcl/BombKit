@@ -35,14 +35,33 @@
     return [[BombRequest alloc] initWithBuilder:self];
 }
 
+- (NSURL *)addParametersForBaseURL:(NSDictionary *)param forUrl:(NSString *)urlStr{
+    NSURLComponents *components = [[NSURLComponents alloc] initWithURL:[NSURL URLWithString:urlStr] resolvingAgainstBaseURL:NO];
+    
+    NSMutableArray *queryItems = [[NSMutableArray alloc] init];
+    
+    for (NSString *aKey in param.allKeys) {
+        NSURLQueryItem *anItem = [[NSURLQueryItem alloc] initWithName:aKey value:param[aKey]];
+        [queryItems addObject:anItem];
+    }
+    [components setQueryItems:queryItems];
+    return [components URL];
+}
+
 - (NSURLRequest *)request{
     if (!self.buildError) {
         if (_isSearch) {
-            NSString *urlString = [NSString stringWithFormat:@"%@search/?api_key=%@&format=json&query=\"%@\"&resources=%@", baseURL, key, _query, _resource];
-            NSURL *url = [NSURL URLWithString:[urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLFragmentAllowedCharacterSet]]];
+            NSURL *url = [self addParametersForBaseURL:@{@"api_key": key,
+                                                         @"format": @"json",
+                                                         @"query": _query,
+                                                         @"resources": _resource}
+                                                forUrl:[NSString stringWithFormat:@"%@search/", baseURL]];
             return [NSURLRequest requestWithURL:url];
         }else{
-            NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@/%@/?api_key=%@&format=json", baseURL, _resource, _resourceId, key]];
+            NSURL *url = [self addParametersForBaseURL:@{@"api_key": key,
+                                                         @"format": @"json"}
+                                                forUrl:[NSString stringWithFormat:@"%@%@/%@/", baseURL, _resource, _resourceId]];
+            
             return [NSURLRequest requestWithURL:url];
         }
     }else{
