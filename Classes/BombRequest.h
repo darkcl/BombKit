@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class BombRequestBuilder;
+
 @interface BombRequest : NSObject
+
++ (instancetype)requestWithBuilder:(void(^)(BombRequestBuilder *builder))builderBlock;
 
 @end

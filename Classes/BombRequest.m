@@ -8,6 +8,16 @@
 
 #import "BombRequest.h"
 
+#import "BombRequestBuilder.h"
+
+@interface BombRequest()
+
+@end
+
 @implementation BombRequest
+
++ (instancetype)requestWithBuilder:(void(^)(BombRequestBuilder *builder))builderBlock{
+    return nil;
+}
 
 @end

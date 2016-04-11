@@ -22,6 +22,18 @@
 		0E279E831CBB552200F2582A /* BombRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E821CBB552200F2582A /* BombRequestTests.m */; };
 		0E279E841CBB552200F2582A /* BombRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E821CBB552200F2582A /* BombRequestTests.m */; };
 		0E279E851CBB552200F2582A /* BombRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E821CBB552200F2582A /* BombRequestTests.m */; };
+		0E279E881CBB564200F2582A /* BombRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E279E861CBB564200F2582A /* BombRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E279E891CBB564200F2582A /* BombRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E279E861CBB564200F2582A /* BombRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E279E8A1CBB564200F2582A /* BombRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E279E861CBB564200F2582A /* BombRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E279E8B1CBB564200F2582A /* BombRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E871CBB564200F2582A /* BombRequestBuilder.m */; };
+		0E279E8C1CBB564200F2582A /* BombRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E871CBB564200F2582A /* BombRequestBuilder.m */; };
+		0E279E8D1CBB564200F2582A /* BombRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E871CBB564200F2582A /* BombRequestBuilder.m */; };
+		0E279E901CBB5C9700F2582A /* NSError+BombKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E279E8E1CBB5C9700F2582A /* NSError+BombKit.h */; };
+		0E279E911CBB5C9700F2582A /* NSError+BombKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E279E8E1CBB5C9700F2582A /* NSError+BombKit.h */; };
+		0E279E921CBB5C9700F2582A /* NSError+BombKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E279E8E1CBB5C9700F2582A /* NSError+BombKit.h */; };
+		0E279E931CBB5C9700F2582A /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */; };
+		0E279E941CBB5C9700F2582A /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */; };
+		0E279E951CBB5C9700F2582A /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +79,10 @@
 		0E279E7A1CBB54E500F2582A /* BombRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombRequest.h; sourceTree = "<group>"; };
 		0E279E7B1CBB54E500F2582A /* BombRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombRequest.m; sourceTree = "<group>"; };
 		0E279E821CBB552200F2582A /* BombRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombRequestTests.m; sourceTree = "<group>"; };
+		0E279E861CBB564200F2582A /* BombRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombRequestBuilder.h; sourceTree = "<group>"; };
+		0E279E871CBB564200F2582A /* BombRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombRequestBuilder.m; sourceTree = "<group>"; };
+		0E279E8E1CBB5C9700F2582A /* NSError+BombKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+BombKit.h"; sourceTree = "<group>"; };
+		0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+BombKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +218,10 @@
 			children = (
 				0E279E7A1CBB54E500F2582A /* BombRequest.h */,
 				0E279E7B1CBB54E500F2582A /* BombRequest.m */,
+				0E279E861CBB564200F2582A /* BombRequestBuilder.h */,
+				0E279E871CBB564200F2582A /* BombRequestBuilder.m */,
+				0E279E8E1CBB5C9700F2582A /* NSError+BombKit.h */,
+				0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -222,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E279E7C1CBB54E500F2582A /* BombRequest.h in Headers */,
+				0E279E901CBB5C9700F2582A /* NSError+BombKit.h in Headers */,
+				0E279E881CBB564200F2582A /* BombRequestBuilder.h in Headers */,
 				0E279E1D1CBB52E900F2582A /* BombKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,6 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E279E7D1CBB54E500F2582A /* BombRequest.h in Headers */,
+				0E279E911CBB5C9700F2582A /* NSError+BombKit.h in Headers */,
+				0E279E891CBB564200F2582A /* BombRequestBuilder.h in Headers */,
 				0E279E481CBB538C00F2582A /* BombKit OSX.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E279E7E1CBB54E500F2582A /* BombRequest.h in Headers */,
+				0E279E921CBB5C9700F2582A /* NSError+BombKit.h in Headers */,
+				0E279E8A1CBB564200F2582A /* BombRequestBuilder.h in Headers */,
 				0E279E641CBB543400F2582A /* BombKit tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +483,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E279E7F1CBB54E500F2582A /* BombRequest.m in Sources */,
+				0E279E8B1CBB564200F2582A /* BombRequestBuilder.m in Sources */,
+				0E279E931CBB5C9700F2582A /* NSError+BombKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +501,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E279E801CBB54E500F2582A /* BombRequest.m in Sources */,
+				0E279E8C1CBB564200F2582A /* BombRequestBuilder.m in Sources */,
+				0E279E941CBB5C9700F2582A /* NSError+BombKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +519,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E279E811CBB54E500F2582A /* BombRequest.m in Sources */,
+				0E279E8D1CBB564200F2582A /* BombRequestBuilder.m in Sources */,
+				0E279E951CBB5C9700F2582A /* NSError+BombKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
