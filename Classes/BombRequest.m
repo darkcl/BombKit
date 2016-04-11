@@ -42,24 +42,28 @@
         NSURLSessionDataTask *task = [session dataTaskWithRequest:apiRequest
                                                 completionHandler:
                                       ^(NSData *data, NSURLResponse *response, NSError *error) {
-                                          if (!error) {
-                                              NSError *jsonError;
-                                              NSDictionary *responseDict = [NSJSONSerialization JSONObjectWithData:data
-                                                                                                           options:NSJSONReadingAllowFragments
-                                                                                                             error:&jsonError];
-                                              if (!jsonError) {
-                                                  NSError *responseError = [NSError errorFromResponse:responseDict];
-                                                  if (!responseError) {
-                                                      complete(responseDict);
-                                                  }else{
-                                                      failure(responseError);
-                                                  }
-                                              }else{
-                                                  failure(error);
-                                              }
-                                          }else{
+                                          if (error) {
                                               failure(error);
+                                              return;
                                           }
+                                          
+                                          NSError *jsonError;
+                                          NSDictionary *responseDict = [NSJSONSerialization JSONObjectWithData:data
+                                                                                                       options:NSJSONReadingAllowFragments
+                                                                                                         error:&jsonError];
+                                          if (jsonError) {
+                                              failure(jsonError);
+                                              return;
+                                          }
+                                          
+                                          NSError *responseError = [NSError errorFromResponse:responseDict];
+                                          if (responseError) {
+                                              failure(responseError);
+                                              return;
+                                              
+                                          }
+                                          
+                                          complete(responseDict);
                                       }];
         
         [task resume];
