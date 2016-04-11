@@ -28,7 +28,7 @@
 - (void)testBasicCalls {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Basic Calls"];
     
-    [[BombRequest requestWithAPIkey:@"API_KEY_HERE"
+    [[BombRequest requestWithAPIkey:@"6402935262fb3a5d65042267e7eb4ef24bc7727a"
                            builder:^(BombRequestBuilder *builder) {
                                builder.resource = @"game";
                                builder.resourceId = @"3030-4725";
@@ -41,6 +41,30 @@
                                XCTFail(@"Should not fail with error %@", err);
                                [expectation fulfill];
                            }];
+    
+    [self waitForExpectationsWithTimeout:30
+                                 handler:^(NSError * _Nullable error) {
+                                     XCTAssertNil(error);
+                                 }];
+}
+
+- (void)testSearch {
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Search"];
+    
+    [[BombRequest requestWithAPIkey:@"6402935262fb3a5d65042267e7eb4ef24bc7727a"
+                            builder:^(BombRequestBuilder *builder) {
+                                builder.isSearch = YES;
+                                builder.query = @"metroid prime";
+                                builder.resource = @"game";
+                            }] makeRequestWithCompletion:^(id response) {
+                                NSLog(@"%@", response);
+                                
+                                XCTAssertNotNil(response);
+                                [expectation fulfill];
+                            } failure:^(NSError *err) {
+                                XCTFail(@"Should not fail with error %@", err);
+                                [expectation fulfill];
+                            }];
     
     [self waitForExpectationsWithTimeout:30
                                  handler:^(NSError * _Nullable error) {

@@ -26,7 +26,7 @@
     if (self = [super init]) {
         baseURL = @"http://www.giantbomb.com/api/";
         key = apiKey;
-        
+        _isSearch = NO;
     }
     return self;
 }
@@ -37,8 +37,14 @@
 
 - (NSURLRequest *)request{
     if (!self.buildError) {
-        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@/%@/?api_key=%@&format=json", baseURL, _resource, _resourceId, key]];
-        return [NSURLRequest requestWithURL:url];
+        if (_isSearch) {
+            NSString *urlString = [NSString stringWithFormat:@"%@search/?api_key=%@&format=json&query=\"%@\"&resources=%@", baseURL, key, _query, _resource];
+            NSURL *url = [NSURL URLWithString:[urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLFragmentAllowedCharacterSet]]];
+            return [NSURLRequest requestWithURL:url];
+        }else{
+            NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@/%@/?api_key=%@&format=json", baseURL, _resource, _resourceId, key]];
+            return [NSURLRequest requestWithURL:url];
+        }
     }else{
         return nil;
     }

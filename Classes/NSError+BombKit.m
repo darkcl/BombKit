@@ -60,7 +60,6 @@ NSString * const BombKitErrorDomain = @"com.darkcl.BombKit.error";
                            @"releases",
                            @"review",
                            @"reviews",
-                           @"search",
                            @"theme",
                            @"themes",
                            @"types",

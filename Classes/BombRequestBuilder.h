@@ -14,7 +14,8 @@
 
 @property (nonatomic, strong) NSString *resource;
 @property (nonatomic, strong) NSString *resourceId;
-
+@property BOOL isSearch;
+@property (nonatomic, strong) NSString *query;
 @property (nonatomic, strong) NSArray <NSString *> *fieldsList;
 
 - (instancetype)init NS_UNAVAILABLE;
