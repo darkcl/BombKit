@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BombKit.xcscheme</key>
+		<key>BombKit OSX.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>BombKit tvOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>BombKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -18,6 +28,31 @@
 			<true/>
 		</dict>
 		<key>0E279E221CBB52E900F2582A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E279E371CBB531100F2582A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E279E441CBB538C00F2582A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E279E4D1CBB538C00F2582A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E279E601CBB543400F2582A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E279E691CBB543400F2582A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
