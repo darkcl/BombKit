@@ -12,9 +12,16 @@
 
 @interface BombRequestBuilder : NSObject
 
+@property (nonatomic, strong) NSString *resource;
+@property (nonatomic, strong) NSString *resourceId;
+
+@property (nonatomic, strong) NSArray <NSString *> *fieldsList;
+
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithAPIKey:(NSString *)apiKey NS_DESIGNATED_INITIALIZER;
 
 - (BombRequest *)build;
+- (NSURLRequest *)request;
+- (NSError *)buildError;
 
 @end

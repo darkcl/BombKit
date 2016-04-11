@@ -23,4 +23,62 @@ NSString * const BombKitErrorDomain = @"com.darkcl.BombKit.error";
     }
 }
 
++ (NSError *)errorFromResourseTag:(NSString *)resource{
+    NSArray *resources = @[@"accessory",
+                           @"accessories",
+                           @"character",
+                           @"characters",
+                           @"chat",
+                           @"chats",
+                           @"company",
+                           @"companies",
+                           @"concept",
+                           @"concepts",
+                           @"franchise",
+                           @"franchises",
+                           @"game",
+                           @"games",
+                           @"game_rating",
+                           @"game_ratings",
+                           @"genre",
+                           @"genres",
+                           @"location",
+                           @"locations",
+                           @"object",
+                           @"objects",
+                           @"person",
+                           @"people",
+                           @"platform",
+                           @"platforms",
+                           @"promo",
+                           @"promos",
+                           @"rating_board",
+                           @"rating_boards",
+                           @"region",
+                           @"regions",
+                           @"release",
+                           @"releases",
+                           @"review",
+                           @"reviews",
+                           @"search",
+                           @"theme",
+                           @"themes",
+                           @"types",
+                           @"user_review",
+                           @"user_reviews",
+                           @"video",
+                           @"videos",
+                           @"video_type",
+                           @"video_types",
+                           @"video_show",
+                           @"video_shows"];
+    if (![resources containsObject:resource]) {
+        return [NSError errorWithDomain:BombKitErrorDomain
+                                   code:-1
+                               userInfo:@{NSLocalizedDescriptionKey: [NSString stringWithFormat:@"Resource tags %@ not exists.", resource]}];
+    }else{
+        return nil;
+    }
+}
+
 @end

@@ -25,16 +25,27 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testBasicCalls {
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Basic Calls"];
+    
+    [[BombRequest requestWithAPIkey:@"API_KEY_HERE"
+                           builder:^(BombRequestBuilder *builder) {
+                               builder.resource = @"game";
+                               builder.resourceId = @"3030-4725";
+                           }] makeRequestWithCompletion:^(id response) {
+                               NSLog(@"%@", response);
+                               
+                               XCTAssertNotNil(response);
+                               [expectation fulfill];
+                           } failure:^(NSError *err) {
+                               XCTFail(@"Should not fail with error %@", err);
+                               [expectation fulfill];
+                           }];
+    
+    [self waitForExpectationsWithTimeout:30
+                                 handler:^(NSError * _Nullable error) {
+                                     XCTAssertNil(error);
+                                 }];
 }
 
 @end

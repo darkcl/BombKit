@@ -14,4 +14,6 @@ extern NSString * const BombKitErrorDomain;
 
 + (NSError *)errorFromResponse:(NSDictionary *)response;
 
++ (NSError *)errorFromResourseTag:(NSString *)resource;
+
 @end

@@ -8,9 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@class BombRequestBuilder;
+#import "BombRequestBuilder.h"
 
 @interface BombRequest : NSObject
+
+- (instancetype)init NS_UNAVAILABLE;
+
+- (instancetype)initWithBuilder:(BombRequestBuilder *)builder NS_DESIGNATED_INITIALIZER;
+
+- (void)makeRequestWithCompletion:(void(^)(id response))complete
+                          failure:(void(^)(NSError *err))failure;
 
 + (instancetype)requestWithAPIkey:(NSString *)apiKey
                           builder:(void(^)(BombRequestBuilder *builder))builderBlock;
