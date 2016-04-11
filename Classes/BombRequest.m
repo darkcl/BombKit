@@ -16,8 +16,12 @@
 
 @implementation BombRequest
 
-+ (instancetype)requestWithBuilder:(void(^)(BombRequestBuilder *builder))builderBlock{
-    return nil;
++ (instancetype)requestWithAPIkey:(NSString *)apiKey
+                          builder:(void(^)(BombRequestBuilder *builder))builderBlock{
+    BombRequestBuilder *resquestBuilder = [[BombRequestBuilder alloc] initWithAPIKey:apiKey];
+    builderBlock(resquestBuilder);
+    
+    return [resquestBuilder build];
 }
 
 @end

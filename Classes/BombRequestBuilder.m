@@ -8,10 +8,27 @@
 
 #import "BombRequestBuilder.h"
 
-@interface BombRequestBuilder()
+#import "BombRequest.h"
+
+@interface BombRequestBuilder() {
+    NSString *baseURL;
+    NSString *key;
+}
 
 @end
 
 @implementation BombRequestBuilder
+
+- (instancetype)initWithAPIKey:(NSString *)apiKey{
+    if (self = [super init]) {
+        baseURL = @"http://www.giantbomb.com/api/";
+        key = apiKey;
+    }
+    return self;
+}
+
+- (BombRequest *)build{
+    return nil;
+}
 
 @end

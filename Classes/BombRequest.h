@@ -12,6 +12,7 @@
 
 @interface BombRequest : NSObject
 
-+ (instancetype)requestWithBuilder:(void(^)(BombRequestBuilder *builder))builderBlock;
++ (instancetype)requestWithAPIkey:(NSString *)apiKey
+                          builder:(void(^)(BombRequestBuilder *builder))builderBlock;
 
 @end

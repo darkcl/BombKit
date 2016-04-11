@@ -8,8 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+@class BombRequest;
+
 @interface BombRequestBuilder : NSObject
 
+- (instancetype)init NS_UNAVAILABLE;
+- (instancetype)initWithAPIKey:(NSString *)apiKey NS_DESIGNATED_INITIALIZER;
 
+- (BombRequest *)build;
 
 @end
