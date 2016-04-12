@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BombKit OSX.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>BombKit tvOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>BombKit.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0E279E181CBB52E900F2582A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E279E221CBB52E900F2582A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E279E441CBB538C00F2582A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E279E4D1CBB538C00F2582A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E279E601CBB543400F2582A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E279E691CBB543400F2582A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

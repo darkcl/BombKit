@@ -1,0 +1,6 @@
+framework module BombKit {
+  umbrella header "BombKit.h"
+
+  export *
+  module * { export * }
+}

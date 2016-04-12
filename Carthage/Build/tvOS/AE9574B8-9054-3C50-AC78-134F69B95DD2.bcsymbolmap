@@ -1,0 +1,370 @@
+BCSymbolMap Version: 1.0
+-[BombRequest initWithBuilder:]
++[BombRequest requestWithAPIkey:builder:]
+-[BombRequest makeRequestWithCompletion:failure:]
+__49-[BombRequest makeRequestWithCompletion:failure:]_block_invoke
+__copy_helper_block_
+__destroy_helper_block_
+-[BombRequest .cxx_destruct]
+OBJC_CLASSLIST_SUP_REFS_$_
+OBJC_METH_VAR_NAME_
+OBJC_SELECTOR_REFERENCES_
+OBJC_METH_VAR_NAME_.1
+OBJC_SELECTOR_REFERENCES_.2
+OBJC_IVAR_$_BombRequest.apiRequest
+OBJC_METH_VAR_NAME_.3
+OBJC_SELECTOR_REFERENCES_.4
+OBJC_IVAR_$_BombRequest.builderError
+OBJC_CLASSLIST_REFERENCES_$_
+OBJC_METH_VAR_NAME_.5
+OBJC_SELECTOR_REFERENCES_.6
+OBJC_METH_VAR_NAME_.7
+OBJC_SELECTOR_REFERENCES_.8
+OBJC_METH_VAR_NAME_.9
+OBJC_SELECTOR_REFERENCES_.10
+OBJC_CLASSLIST_REFERENCES_$_.11
+OBJC_METH_VAR_NAME_.12
+OBJC_SELECTOR_REFERENCES_.13
+OBJC_CLASSLIST_REFERENCES_$_.14
+OBJC_METH_VAR_NAME_.15
+OBJC_SELECTOR_REFERENCES_.16
+OBJC_CLASSLIST_REFERENCES_$_.17
+OBJC_METH_VAR_NAME_.18
+OBJC_SELECTOR_REFERENCES_.19
+.str
+__block_descriptor_tmp
+OBJC_METH_VAR_NAME_.20
+OBJC_SELECTOR_REFERENCES_.21
+OBJC_METH_VAR_NAME_.22
+OBJC_SELECTOR_REFERENCES_.23
+OBJC_CLASS_NAME_
+OBJC_METH_VAR_NAME_.24
+OBJC_METH_VAR_TYPE_
+l_OBJC_$_CLASS_METHODS_BombRequest
+l_OBJC_METACLASS_RO_$_BombRequest
+OBJC_CLASS_NAME_.25
+OBJC_METH_VAR_NAME_.26
+OBJC_METH_VAR_TYPE_.27
+OBJC_METH_VAR_NAME_.28
+OBJC_METH_VAR_TYPE_.29
+OBJC_METH_VAR_NAME_.30
+OBJC_METH_VAR_TYPE_.31
+l_OBJC_$_INSTANCE_METHODS_BombRequest
+OBJC_METH_VAR_NAME_.32
+OBJC_METH_VAR_TYPE_.33
+OBJC_METH_VAR_NAME_.34
+OBJC_METH_VAR_TYPE_.35
+l_OBJC_$_INSTANCE_VARIABLES_BombRequest
+l_OBJC_CLASS_RO_$_BombRequest
+OBJC_LABEL_CLASS_$
+Apple LLVM version 7.3.0 (clang-703.0.29)
+-[BombRequest .cxx_destruct]
+/Users/darkcl/Documents/Workspace/BombKit/Classes/BombRequest.m
+/Users/darkcl/Documents/Workspace/BombKit
+-[BombRequest makeRequestWithCompletion:failure:]
++[BombRequest requestWithAPIkey:builder:]
+-[BombRequest initWithBuilder:]
+-[BombRequestBuilder initWithAPIKey:]
+-[BombRequestBuilder addSortForField:forType:]
+-[BombRequestBuilder build]
+-[BombRequestBuilder addParametersForBaseURL:forUrl:]
+-[BombRequestBuilder request]
+-[BombRequestBuilder buildError]
+-[BombRequestBuilder resource]
+-[BombRequestBuilder setResource:]
+-[BombRequestBuilder resourceId]
+-[BombRequestBuilder setResourceId:]
+-[BombRequestBuilder isSearch]
+-[BombRequestBuilder setIsSearch:]
+-[BombRequestBuilder query]
+-[BombRequestBuilder setQuery:]
+-[BombRequestBuilder fieldsList]
+-[BombRequestBuilder setFieldsList:]
+-[BombRequestBuilder limit]
+-[BombRequestBuilder setLimit:]
+-[BombRequestBuilder offset]
+-[BombRequestBuilder setOffset:]
+-[BombRequestBuilder .cxx_destruct]
+_unnamed_cfstring_
+OBJC_IVAR_$_BombRequestBuilder.baseURL
+OBJC_IVAR_$_BombRequestBuilder.key
+OBJC_IVAR_$_BombRequestBuilder._isSearch
+OBJC_IVAR_$_BombRequestBuilder._limit
+OBJC_IVAR_$_BombRequestBuilder._offset
+.str.1
+_unnamed_cfstring_.2
+.str.3
+_unnamed_cfstring_.4
+.str.5
+_unnamed_cfstring_.6
+.str.7
+_unnamed_cfstring_.8
+OBJC_IVAR_$_BombRequestBuilder.sortDict
+OBJC_METH_VAR_NAME_.14
+OBJC_SELECTOR_REFERENCES_.15
+OBJC_CLASSLIST_REFERENCES_$_.16
+OBJC_CLASSLIST_REFERENCES_$_.22
+OBJC_METH_VAR_NAME_.23
+OBJC_SELECTOR_REFERENCES_.24
+OBJC_METH_VAR_NAME_.25
+OBJC_SELECTOR_REFERENCES_.26
+OBJC_METH_VAR_NAME_.27
+OBJC_SELECTOR_REFERENCES_.28
+OBJC_CLASSLIST_REFERENCES_$_.29
+OBJC_SELECTOR_REFERENCES_.31
+OBJC_SELECTOR_REFERENCES_.33
+OBJC_CLASSLIST_REFERENCES_$_.34
+OBJC_METH_VAR_NAME_.35
+OBJC_SELECTOR_REFERENCES_.36
+OBJC_METH_VAR_NAME_.37
+OBJC_SELECTOR_REFERENCES_.38
+OBJC_METH_VAR_NAME_.39
+OBJC_SELECTOR_REFERENCES_.40
+OBJC_METH_VAR_NAME_.41
+OBJC_SELECTOR_REFERENCES_.42
+OBJC_METH_VAR_NAME_.43
+OBJC_SELECTOR_REFERENCES_.44
+.str.45
+_unnamed_cfstring_.46
+.str.47
+_unnamed_cfstring_.48
+.str.49
+_unnamed_cfstring_.50
+.str.51
+_unnamed_cfstring_.52
+OBJC_IVAR_$_BombRequestBuilder._query
+.str.53
+_unnamed_cfstring_.54
+OBJC_IVAR_$_BombRequestBuilder._resource
+OBJC_CLASSLIST_REFERENCES_$_.55
+.str.56
+_unnamed_cfstring_.57
+OBJC_METH_VAR_NAME_.58
+OBJC_SELECTOR_REFERENCES_.59
+OBJC_METH_VAR_NAME_.60
+OBJC_SELECTOR_REFERENCES_.61
+OBJC_CLASSLIST_REFERENCES_$_.62
+OBJC_METH_VAR_NAME_.63
+OBJC_SELECTOR_REFERENCES_.64
+OBJC_IVAR_$_BombRequestBuilder._fieldsList
+OBJC_METH_VAR_NAME_.65
+OBJC_SELECTOR_REFERENCES_.66
+.str.67
+_unnamed_cfstring_.68
+OBJC_METH_VAR_NAME_.69
+OBJC_SELECTOR_REFERENCES_.70
+OBJC_CLASSLIST_REFERENCES_$_.71
+OBJC_METH_VAR_NAME_.72
+OBJC_SELECTOR_REFERENCES_.73
+.str.74
+_unnamed_cfstring_.75
+OBJC_METH_VAR_NAME_.76
+OBJC_SELECTOR_REFERENCES_.77
+.str.78
+_unnamed_cfstring_.79
+.str.80
+_unnamed_cfstring_.81
+.str.82
+_unnamed_cfstring_.83
+.str.84
+_unnamed_cfstring_.85
+.str.86
+_unnamed_cfstring_.87
+OBJC_IVAR_$_BombRequestBuilder._resourceId
+OBJC_CLASSLIST_REFERENCES_$_.88
+OBJC_METH_VAR_NAME_.89
+OBJC_SELECTOR_REFERENCES_.90
+OBJC_IVAR_$_BombRequestBuilder.filterList
+OBJC_IVAR_$_BombRequestBuilder.resources
+l_OBJC_METACLASS_RO_$_BombRequestBuilder
+OBJC_CLASS_NAME_.91
+OBJC_METH_VAR_NAME_.92
+OBJC_METH_VAR_NAME_.93
+OBJC_METH_VAR_TYPE_.94
+OBJC_METH_VAR_NAME_.95
+OBJC_METH_VAR_TYPE_.96
+OBJC_METH_VAR_TYPE_.97
+OBJC_METH_VAR_NAME_.98
+OBJC_METH_VAR_NAME_.99
+OBJC_METH_VAR_TYPE_.100
+OBJC_METH_VAR_NAME_.101
+OBJC_METH_VAR_NAME_.102
+OBJC_METH_VAR_TYPE_.103
+OBJC_METH_VAR_NAME_.104
+OBJC_METH_VAR_NAME_.105
+OBJC_METH_VAR_NAME_.106
+OBJC_METH_VAR_TYPE_.107
+OBJC_METH_VAR_NAME_.108
+OBJC_METH_VAR_TYPE_.109
+OBJC_METH_VAR_NAME_.110
+OBJC_METH_VAR_NAME_.111
+OBJC_METH_VAR_NAME_.112
+OBJC_METH_VAR_NAME_.113
+OBJC_METH_VAR_NAME_.114
+OBJC_METH_VAR_TYPE_.115
+OBJC_METH_VAR_NAME_.116
+OBJC_METH_VAR_TYPE_.117
+OBJC_METH_VAR_NAME_.118
+OBJC_METH_VAR_NAME_.119
+l_OBJC_$_INSTANCE_METHODS_BombRequestBuilder
+OBJC_METH_VAR_NAME_.120
+OBJC_METH_VAR_TYPE_.121
+OBJC_METH_VAR_NAME_.122
+OBJC_METH_VAR_NAME_.123
+OBJC_METH_VAR_TYPE_.124
+OBJC_METH_VAR_NAME_.125
+OBJC_METH_VAR_TYPE_.126
+OBJC_METH_VAR_NAME_.127
+OBJC_METH_VAR_NAME_.128
+OBJC_METH_VAR_TYPE_.129
+OBJC_METH_VAR_NAME_.130
+OBJC_METH_VAR_NAME_.131
+OBJC_METH_VAR_NAME_.132
+OBJC_METH_VAR_NAME_.133
+OBJC_METH_VAR_NAME_.134
+OBJC_METH_VAR_TYPE_.135
+OBJC_METH_VAR_NAME_.136
+l_OBJC_$_INSTANCE_VARIABLES_BombRequestBuilder
+OBJC_PROP_NAME_ATTR_
+OBJC_PROP_NAME_ATTR_.137
+OBJC_PROP_NAME_ATTR_.138
+OBJC_PROP_NAME_ATTR_.139
+OBJC_PROP_NAME_ATTR_.140
+OBJC_PROP_NAME_ATTR_.141
+OBJC_PROP_NAME_ATTR_.142
+OBJC_PROP_NAME_ATTR_.143
+OBJC_PROP_NAME_ATTR_.144
+OBJC_PROP_NAME_ATTR_.145
+OBJC_PROP_NAME_ATTR_.146
+OBJC_PROP_NAME_ATTR_.147
+OBJC_PROP_NAME_ATTR_.148
+OBJC_PROP_NAME_ATTR_.149
+l_OBJC_$_PROP_LIST_BombRequestBuilder
+l_OBJC_CLASS_RO_$_BombRequestBuilder
+-[BombRequestBuilder .cxx_destruct]
+/Users/darkcl/Documents/Workspace/BombKit/Classes/BombRequestBuilder.m
+-[BombRequestBuilder setOffset:]
+/Users/darkcl/Documents/Workspace/BombKit/Classes/BombRequestBuilder.h
+-[BombRequestBuilder offset]
+-[BombRequestBuilder setLimit:]
+-[BombRequestBuilder limit]
+-[BombRequestBuilder setFieldsList:]
+-[BombRequestBuilder fieldsList]
+-[BombRequestBuilder setQuery:]
+-[BombRequestBuilder query]
+-[BombRequestBuilder setIsSearch:]
+-[BombRequestBuilder isSearch]
+-[BombRequestBuilder setResourceId:]
+-[BombRequestBuilder resourceId]
+-[BombRequestBuilder setResource:]
+-[BombRequestBuilder resource]
+-[BombRequestBuilder buildError]
+-[BombRequestBuilder request]
+-[BombRequestBuilder addParametersForBaseURL:forUrl:]
+-[BombRequestBuilder build]
+-[BombRequestBuilder addSortForField:forType:]
+-[BombRequestBuilder initWithAPIKey:]
++[NSError(BombKit) errorFromResponse:]
++[NSError(BombKit) errorFromResourseTag:]
+OBJC_CLASSLIST_REFERENCES_$_.7
+OBJC_METH_VAR_NAME_.8
+OBJC_SELECTOR_REFERENCES_.9
+OBJC_METH_VAR_NAME_.10
+OBJC_SELECTOR_REFERENCES_.11
+.str.12
+_unnamed_cfstring_.13
+.str.14
+_unnamed_cfstring_.15
+.str.16
+_unnamed_cfstring_.17
+.str.18
+_unnamed_cfstring_.19
+.str.20
+_unnamed_cfstring_.21
+.str.22
+_unnamed_cfstring_.23
+.str.24
+_unnamed_cfstring_.25
+.str.26
+_unnamed_cfstring_.27
+.str.28
+_unnamed_cfstring_.29
+.str.30
+_unnamed_cfstring_.31
+.str.32
+_unnamed_cfstring_.33
+.str.34
+_unnamed_cfstring_.35
+.str.36
+_unnamed_cfstring_.37
+.str.38
+_unnamed_cfstring_.39
+.str.40
+_unnamed_cfstring_.41
+.str.42
+_unnamed_cfstring_.43
+.str.44
+_unnamed_cfstring_.45
+.str.46
+_unnamed_cfstring_.47
+.str.48
+_unnamed_cfstring_.49
+.str.50
+_unnamed_cfstring_.51
+.str.52
+_unnamed_cfstring_.53
+.str.54
+_unnamed_cfstring_.55
+.str.58
+_unnamed_cfstring_.59
+.str.60
+_unnamed_cfstring_.61
+.str.62
+_unnamed_cfstring_.63
+.str.64
+_unnamed_cfstring_.65
+.str.66
+_unnamed_cfstring_.67
+.str.68
+_unnamed_cfstring_.69
+.str.70
+_unnamed_cfstring_.71
+.str.72
+_unnamed_cfstring_.73
+.str.76
+_unnamed_cfstring_.77
+.str.88
+_unnamed_cfstring_.89
+.str.90
+_unnamed_cfstring_.91
+.str.92
+_unnamed_cfstring_.93
+.str.94
+_unnamed_cfstring_.95
+.str.96
+_unnamed_cfstring_.97
+.str.98
+_unnamed_cfstring_.99
+.str.100
+_unnamed_cfstring_.101
+.str.102
+_unnamed_cfstring_.103
+.str.104
+_unnamed_cfstring_.105
+OBJC_CLASSLIST_REFERENCES_$_.106
+OBJC_METH_VAR_NAME_.107
+OBJC_SELECTOR_REFERENCES_.108
+OBJC_METH_VAR_NAME_.109
+OBJC_SELECTOR_REFERENCES_.110
+OBJC_CLASSLIST_REFERENCES_$_.111
+.str.112
+_unnamed_cfstring_.113
+OBJC_SELECTOR_REFERENCES_.115
+OBJC_METH_VAR_NAME_.117
+l_OBJC_$_CATEGORY_CLASS_METHODS_NSError_$_BombKit
+l_OBJC_$_CATEGORY_NSError_$_BombKit
+OBJC_LABEL_CATEGORY_$
++[NSError(BombKit) errorFromResourseTag:]
+/Users/darkcl/Documents/Workspace/BombKit/Classes/NSError+BombKit.m
++[NSError(BombKit) errorFromResponse:]
+/Users/darkcl/Library/Developer/Xcode/DerivedData/BombKit-fvijhxuowkcqdgdjpziewgtruccd/Build/Intermediates/BombKit.build/Release-appletvos/BombKit tvOS.build/DerivedSources/BombKit_vers.c

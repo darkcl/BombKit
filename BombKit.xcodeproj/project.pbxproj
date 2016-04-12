@@ -34,6 +34,8 @@
 		0E279E931CBB5C9700F2582A /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */; };
 		0E279E941CBB5C9700F2582A /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */; };
 		0E279E951CBB5C9700F2582A /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */; };
+		748E3BD51CBD38C600133052 /* BombKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E279E1C1CBB52E900F2582A /* BombKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		748E3BD61CBD38C700133052 /* BombKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E279E1C1CBB52E900F2582A /* BombKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -255,6 +257,7 @@
 				0E279E7D1CBB54E500F2582A /* BombRequest.h in Headers */,
 				0E279E911CBB5C9700F2582A /* NSError+BombKit.h in Headers */,
 				0E279E891CBB564200F2582A /* BombRequestBuilder.h in Headers */,
+				748E3BD51CBD38C600133052 /* BombKit.h in Headers */,
 				0E279E481CBB538C00F2582A /* BombKit OSX.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +269,7 @@
 				0E279E7E1CBB54E500F2582A /* BombRequest.h in Headers */,
 				0E279E921CBB5C9700F2582A /* NSError+BombKit.h in Headers */,
 				0E279E8A1CBB564200F2582A /* BombRequestBuilder.h in Headers */,
+				748E3BD61CBD38C700133052 /* BombKit.h in Headers */,
 				0E279E641CBB543400F2582A /* BombKit tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -846,6 +850,7 @@
 				0E279E2F1CBB52E900F2582A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E279E301CBB52E900F2582A /* Build configuration list for PBXNativeTarget "BombKitTests" */ = {
 			isa = XCConfigurationList;
@@ -854,6 +859,7 @@
 				0E279E321CBB52E900F2582A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E279E561CBB538C00F2582A /* Build configuration list for PBXNativeTarget "BombKit OSX" */ = {
 			isa = XCConfigurationList;
@@ -862,6 +868,7 @@
 				0E279E581CBB538C00F2582A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E279E591CBB538C00F2582A /* Build configuration list for PBXNativeTarget "BombKit OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -870,6 +877,7 @@
 				0E279E5B1CBB538C00F2582A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E279E721CBB543400F2582A /* Build configuration list for PBXNativeTarget "BombKit tvOS" */ = {
 			isa = XCConfigurationList;
@@ -878,6 +886,7 @@
 				0E279E741CBB543400F2582A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E279E751CBB543400F2582A /* Build configuration list for PBXNativeTarget "BombKit tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -886,6 +895,7 @@
 				0E279E771CBB543400F2582A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
