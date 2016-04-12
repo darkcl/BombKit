@@ -13,9 +13,14 @@
 
 @interface BombRequestBuilder() {
     NSString *baseURL;
-    NSString *key;
     
+    // Required
+    NSString *key;
     NSArray <NSString *> *resources;
+    
+    // Additional Param
+    NSDictionary <NSString *, NSString *> *sortDict;
+    NSArray <NSDictionary <NSString *, NSString *> *> *filterList;
 }
 
 @end
@@ -27,8 +32,16 @@
         baseURL = @"http://www.giantbomb.com/api/";
         key = apiKey;
         _isSearch = NO;
+        _limit = -1;
+        _offset = -1;
     }
     return self;
+}
+
+- (void)addSortForField:(NSString *)field
+                forType:(BombKitSortingType)sortType{
+    sortDict = @{@"field": field,
+                 @"sortBy": (sortType == BombKitSortingTypeAsc) ? @"asc" : @"desc"};
 }
 
 - (BombRequest *)build{
@@ -41,8 +54,10 @@
     NSMutableArray *queryItems = [[NSMutableArray alloc] init];
     
     for (NSString *aKey in param.allKeys) {
-        NSURLQueryItem *anItem = [[NSURLQueryItem alloc] initWithName:aKey value:param[aKey]];
-        [queryItems addObject:anItem];
+        if (![param[aKey] isKindOfClass:[NSNull class]]) {
+            NSURLQueryItem *anItem = [[NSURLQueryItem alloc] initWithName:aKey value:param[aKey]];
+            [queryItems addObject:anItem];
+        }
     }
     [components setQueryItems:queryItems];
     return [components URL];
@@ -58,8 +73,27 @@
                                                 forUrl:[NSString stringWithFormat:@"%@search/", baseURL]];
             return [NSURLRequest requestWithURL:url];
         }else{
+            NSString *fieldListStr;
+            if (_fieldsList != nil && _fieldsList.count != 0) {
+                fieldListStr = [_fieldsList componentsJoinedByString:@","];
+            }
+            
+            NSNumber *limitNum;
+            if (_limit != -1) {
+                limitNum = [NSNumber numberWithInteger:_limit];
+            }
+            
+            NSNumber *offsetNum;
+            if (_offset != -1) {
+                offsetNum = [NSNumber numberWithInteger:_limit];
+            }
+            
             NSURL *url = [self addParametersForBaseURL:@{@"api_key": key,
-                                                         @"format": @"json"}
+                                                         @"format": @"json",
+                                                         @"field_list": fieldListStr ? fieldListStr : [NSNull null],
+                                                         @"limit": limitNum ? limitNum : [NSNull null],
+                                                         @"offset": offsetNum ? offsetNum : [NSNull null],
+                                                         @"sort": sortDict ? [NSString stringWithFormat:@"%@:%@", sortDict[@"field"], sortDict[@"sortBy"]] : [NSNull null]}
                                                 forUrl:[NSString stringWithFormat:@"%@%@/%@/", baseURL, _resource, _resourceId]];
             
             return [NSURLRequest requestWithURL:url];
