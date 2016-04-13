@@ -25,12 +25,58 @@
     [super tearDown];
 }
 
+- (void)testSortingDesc {
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Sorting Descending"];
+    
+    [[BombRequest requestWithAPIkey:@"6402935262fb3a5d65042267e7eb4ef24bc7727a"
+                            builder:^(BombRequestBuilder *builder) {
+                                builder.resource = BombKitResourceConcepts;
+                                builder.limit = 10;
+                                [builder addSortForField:@"date_added" forType:BombKitSortingTypeDesc];
+                            }] makeRequestWithCompletion:^(id response) {
+                                XCTAssertNotNil(response);
+                                [expectation fulfill];
+                            } failure:^(NSError *err) {
+                                XCTFail(@"Should not fail with error %@", err);
+                                [expectation fulfill];
+                            }];
+    
+    [self waitForExpectationsWithTimeout:30
+                                 handler:^(NSError * _Nullable error) {
+                                     XCTAssertNil(error);
+                                 }];
+}
+
+- (void)testSorting {
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Sorting"];
+    
+    [[BombRequest requestWithAPIkey:@"6402935262fb3a5d65042267e7eb4ef24bc7727a"
+                            builder:^(BombRequestBuilder *builder) {
+                                builder.resource = BombKitResourceConcepts;
+                                builder.limit = 10;
+                                [builder addSortForField:@"date_added" forType:BombKitSortingTypeAsc];
+                            }] makeRequestWithCompletion:^(id response) {
+                                XCTAssertNotNil(response);
+                                [expectation fulfill];
+                            } failure:^(NSError *err) {
+                                XCTFail(@"Should not fail with error %@", err);
+                                [expectation fulfill];
+                            }];
+    
+    [self waitForExpectationsWithTimeout:30
+                                 handler:^(NSError * _Nullable error) {
+                                     XCTAssertNil(error);
+                                 }];
+}
+
 - (void)testBasicCalls {
     XCTestExpectation *expectation = [self expectationWithDescription:@"Basic Calls"];
     
     [[BombRequest requestWithAPIkey:@"6402935262fb3a5d65042267e7eb4ef24bc7727a"
                            builder:^(BombRequestBuilder *builder) {
                                builder.resource = BombKitResourceGame;
+                               builder.limit = 10;
+                               builder.fieldsList = @[@"description"];
                                builder.resourceId = @"3030-4725";
                            }] makeRequestWithCompletion:^(id response) {
                                XCTAssertNotNil(response);

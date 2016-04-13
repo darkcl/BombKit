@@ -55,7 +55,16 @@
     
     for (NSString *aKey in param.allKeys) {
         if (![param[aKey] isKindOfClass:[NSNull class]]) {
-            NSURLQueryItem *anItem = [[NSURLQueryItem alloc] initWithName:aKey value:param[aKey]];
+            NSString *value;
+            if ([param[aKey] isKindOfClass:[NSString class]]) {
+                value = param[aKey];
+            }else if ([param[aKey] respondsToSelector:@selector(stringValue)]) {
+                value = [param[aKey] stringValue];
+            }else{
+                value = [NSString stringWithFormat:@"%@", param[aKey]];
+            }
+            
+            NSURLQueryItem *anItem = [[NSURLQueryItem alloc] initWithName:aKey value:value];
             [queryItems addObject:anItem];
         }
     }
@@ -85,8 +94,14 @@
             
             NSNumber *offsetNum;
             if (_offset != -1) {
-                offsetNum = [NSNumber numberWithInteger:_limit];
+                offsetNum = [NSNumber numberWithInteger:_offset];
             }
+            
+            NSString *urlStr = [baseURL stringByAppendingPathComponent:_resource];
+            if (_resourceId) {
+                urlStr = [urlStr stringByAppendingPathComponent:_resourceId];
+            }
+            urlStr = [NSString stringWithFormat:@"%@/",urlStr];
             
             NSURL *url = [self addParametersForBaseURL:@{@"api_key": key,
                                                          @"format": @"json",
@@ -94,7 +109,7 @@
                                                          @"limit": limitNum ? limitNum : [NSNull null],
                                                          @"offset": offsetNum ? offsetNum : [NSNull null],
                                                          @"sort": sortDict ? [NSString stringWithFormat:@"%@:%@", sortDict[@"field"], sortDict[@"sortBy"]] : [NSNull null]}
-                                                forUrl:[NSString stringWithFormat:@"%@%@/%@/", baseURL, _resource, _resourceId]];
+                                                forUrl:urlStr];
             
             return [NSURLRequest requestWithURL:url];
         }
