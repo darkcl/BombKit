@@ -33,8 +33,6 @@
                                builder.resource = BombKitResourceGame;
                                builder.resourceId = @"3030-4725";
                            }] makeRequestWithCompletion:^(id response) {
-                               NSLog(@"%@", response);
-                               
                                XCTAssertNotNil(response);
                                [expectation fulfill];
                            } failure:^(NSError *err) {
@@ -57,8 +55,6 @@
                                 builder.query = @"metroid prime";
                                 builder.resource = BombKitResourceGame;
                             }] makeRequestWithCompletion:^(id response) {
-                                NSLog(@"%@", response);
-                                
                                 XCTAssertNotNil(response);
                                 [expectation fulfill];
                             } failure:^(NSError *err) {
