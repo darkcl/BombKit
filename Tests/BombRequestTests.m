@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <BombKit/BombRequest.h>
+#import <BombKit/BombKit.h>
 
 @interface BombRequestTests : XCTestCase
 
@@ -30,7 +30,7 @@
     
     [[BombRequest requestWithAPIkey:@"6402935262fb3a5d65042267e7eb4ef24bc7727a"
                            builder:^(BombRequestBuilder *builder) {
-                               builder.resource = @"game";
+                               builder.resource = BombKitResourceGame;
                                builder.resourceId = @"3030-4725";
                            }] makeRequestWithCompletion:^(id response) {
                                NSLog(@"%@", response);
@@ -55,7 +55,7 @@
                             builder:^(BombRequestBuilder *builder) {
                                 builder.isSearch = YES;
                                 builder.query = @"metroid prime";
-                                builder.resource = @"game";
+                                builder.resource = BombKitResourceGame;
                             }] makeRequestWithCompletion:^(id response) {
                                 NSLog(@"%@", response);
                                 

@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char BombKitVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <BombKit/PublicHeader.h>
 
 #import <BombKit/BombRequest.h>
+#import <BombKit/BombKitConstant.h>
