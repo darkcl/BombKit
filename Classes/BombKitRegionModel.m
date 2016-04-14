@@ -10,6 +10,11 @@
 
 @implementation BombKitRegionModel
 
++ (void)load
+{
+    [BombBaseModel registerClass:self];
+}
+
 - (instancetype)initWithDictionary:(NSDictionary *)info{
     if (self = [super init]) {
         

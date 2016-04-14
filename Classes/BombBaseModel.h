@@ -12,7 +12,11 @@
 
 - (instancetype)initWithDictionary:(NSDictionary *)info;
 
++ (void)registerClass:(Class)aClass;
+
 + (NSString *)resourceType;
 + (NSString *)listResourceType;
+
++ (NSArray *)subclasses;
 
 @end
