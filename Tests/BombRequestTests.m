@@ -114,4 +114,27 @@
                                  }];
 }
 
+- (void)testModelClass {
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Search"];
+    
+    [[BombRequest requestWithAPIkey:@"6402935262fb3a5d65042267e7eb4ef24bc7727a"
+                            builder:^(BombRequestBuilder *builder) {
+                                builder.resource = BombKitResourceGame;
+                                builder.limit = 1;
+                                builder.resourceId = @"3030-4725";
+                            }] makeRequestWithCompletion:^(id response) {
+                                XCTAssertNotNil(response);
+                                XCTAssertTrue([response isKindOfClass:[BombKitGameModel class]], @"Should be BombKitAccessoryModel class, %@", NSStringFromClass([response class]));
+                                [expectation fulfill];
+                            } failure:^(NSError *err) {
+                                XCTFail(@"Should not fail with error %@", err);
+                                [expectation fulfill];
+                            }];
+    
+    [self waitForExpectationsWithTimeout:30
+                                 handler:^(NSError * _Nullable error) {
+                                     XCTAssertNil(error);
+                                 }];
+}
+
 @end

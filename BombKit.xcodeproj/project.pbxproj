@@ -32,6 +32,165 @@
 		0E279E931CBB5C9700F2582A /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */; };
 		0E279E941CBB5C9700F2582A /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */; };
 		0E279E951CBB5C9700F2582A /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */; };
+		0EE770751CBF7DB7007314D9 /* BombBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770731CBF7DB7007314D9 /* BombBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770761CBF7DB7007314D9 /* BombBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770731CBF7DB7007314D9 /* BombBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770771CBF7DB7007314D9 /* BombBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770731CBF7DB7007314D9 /* BombBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770781CBF7DB7007314D9 /* BombBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770741CBF7DB7007314D9 /* BombBaseModel.m */; };
+		0EE770791CBF7DB7007314D9 /* BombBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770741CBF7DB7007314D9 /* BombBaseModel.m */; };
+		0EE7707A1CBF7DB7007314D9 /* BombBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770741CBF7DB7007314D9 /* BombBaseModel.m */; };
+		0EE7707C1CBF8226007314D9 /* BombKitModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7707B1CBF8226007314D9 /* BombKitModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7707D1CBF8226007314D9 /* BombKitModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7707B1CBF8226007314D9 /* BombKitModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7707E1CBF8226007314D9 /* BombKitModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7707B1CBF8226007314D9 /* BombKitModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770811CBF8BD2007314D9 /* BombKitAccessoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7707F1CBF8BD2007314D9 /* BombKitAccessoryModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770821CBF8BD2007314D9 /* BombKitAccessoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7707F1CBF8BD2007314D9 /* BombKitAccessoryModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770831CBF8BD2007314D9 /* BombKitAccessoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7707F1CBF8BD2007314D9 /* BombKitAccessoryModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770841CBF8BD2007314D9 /* BombKitAccessoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770801CBF8BD2007314D9 /* BombKitAccessoryModel.m */; };
+		0EE770851CBF8BD2007314D9 /* BombKitAccessoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770801CBF8BD2007314D9 /* BombKitAccessoryModel.m */; };
+		0EE770861CBF8BD2007314D9 /* BombKitAccessoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770801CBF8BD2007314D9 /* BombKitAccessoryModel.m */; };
+		0EE770891CBF8BDD007314D9 /* BombKitCharacterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770871CBF8BDD007314D9 /* BombKitCharacterModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7708A1CBF8BDD007314D9 /* BombKitCharacterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770871CBF8BDD007314D9 /* BombKitCharacterModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7708B1CBF8BDD007314D9 /* BombKitCharacterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770871CBF8BDD007314D9 /* BombKitCharacterModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7708C1CBF8BDD007314D9 /* BombKitCharacterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770881CBF8BDD007314D9 /* BombKitCharacterModel.m */; };
+		0EE7708D1CBF8BDD007314D9 /* BombKitCharacterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770881CBF8BDD007314D9 /* BombKitCharacterModel.m */; };
+		0EE7708E1CBF8BDD007314D9 /* BombKitCharacterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770881CBF8BDD007314D9 /* BombKitCharacterModel.m */; };
+		0EE770911CBF8BE8007314D9 /* BombKitChatModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7708F1CBF8BE8007314D9 /* BombKitChatModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770921CBF8BE8007314D9 /* BombKitChatModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7708F1CBF8BE8007314D9 /* BombKitChatModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770931CBF8BE8007314D9 /* BombKitChatModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7708F1CBF8BE8007314D9 /* BombKitChatModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770941CBF8BE8007314D9 /* BombKitChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770901CBF8BE8007314D9 /* BombKitChatModel.m */; };
+		0EE770951CBF8BE8007314D9 /* BombKitChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770901CBF8BE8007314D9 /* BombKitChatModel.m */; };
+		0EE770961CBF8BE8007314D9 /* BombKitChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770901CBF8BE8007314D9 /* BombKitChatModel.m */; };
+		0EE770991CBF8BF4007314D9 /* BombKitCompanyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770971CBF8BF4007314D9 /* BombKitCompanyModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7709A1CBF8BF4007314D9 /* BombKitCompanyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770971CBF8BF4007314D9 /* BombKitCompanyModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7709B1CBF8BF4007314D9 /* BombKitCompanyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770971CBF8BF4007314D9 /* BombKitCompanyModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7709C1CBF8BF4007314D9 /* BombKitCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770981CBF8BF4007314D9 /* BombKitCompanyModel.m */; };
+		0EE7709D1CBF8BF4007314D9 /* BombKitCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770981CBF8BF4007314D9 /* BombKitCompanyModel.m */; };
+		0EE7709E1CBF8BF4007314D9 /* BombKitCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770981CBF8BF4007314D9 /* BombKitCompanyModel.m */; };
+		0EE770A11CBF8BFF007314D9 /* BombKitConceptModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7709F1CBF8BFF007314D9 /* BombKitConceptModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770A21CBF8BFF007314D9 /* BombKitConceptModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7709F1CBF8BFF007314D9 /* BombKitConceptModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770A31CBF8BFF007314D9 /* BombKitConceptModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7709F1CBF8BFF007314D9 /* BombKitConceptModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770A41CBF8BFF007314D9 /* BombKitConceptModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770A01CBF8BFF007314D9 /* BombKitConceptModel.m */; };
+		0EE770A51CBF8BFF007314D9 /* BombKitConceptModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770A01CBF8BFF007314D9 /* BombKitConceptModel.m */; };
+		0EE770A61CBF8BFF007314D9 /* BombKitConceptModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770A01CBF8BFF007314D9 /* BombKitConceptModel.m */; };
+		0EE770A91CBF8C09007314D9 /* BombKitFranchiseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770A71CBF8C09007314D9 /* BombKitFranchiseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770AA1CBF8C09007314D9 /* BombKitFranchiseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770A71CBF8C09007314D9 /* BombKitFranchiseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770AB1CBF8C09007314D9 /* BombKitFranchiseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770A71CBF8C09007314D9 /* BombKitFranchiseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770AC1CBF8C09007314D9 /* BombKitFranchiseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770A81CBF8C09007314D9 /* BombKitFranchiseModel.m */; };
+		0EE770AD1CBF8C09007314D9 /* BombKitFranchiseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770A81CBF8C09007314D9 /* BombKitFranchiseModel.m */; };
+		0EE770AE1CBF8C09007314D9 /* BombKitFranchiseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770A81CBF8C09007314D9 /* BombKitFranchiseModel.m */; };
+		0EE770B11CBF8C13007314D9 /* BombKitGameModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770AF1CBF8C13007314D9 /* BombKitGameModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770B21CBF8C13007314D9 /* BombKitGameModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770AF1CBF8C13007314D9 /* BombKitGameModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770B31CBF8C13007314D9 /* BombKitGameModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770AF1CBF8C13007314D9 /* BombKitGameModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770B41CBF8C13007314D9 /* BombKitGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770B01CBF8C13007314D9 /* BombKitGameModel.m */; };
+		0EE770B51CBF8C13007314D9 /* BombKitGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770B01CBF8C13007314D9 /* BombKitGameModel.m */; };
+		0EE770B61CBF8C13007314D9 /* BombKitGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770B01CBF8C13007314D9 /* BombKitGameModel.m */; };
+		0EE770B91CBF8C29007314D9 /* BombKitGameRatingModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770B71CBF8C29007314D9 /* BombKitGameRatingModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770BA1CBF8C29007314D9 /* BombKitGameRatingModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770B71CBF8C29007314D9 /* BombKitGameRatingModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770BB1CBF8C29007314D9 /* BombKitGameRatingModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770B71CBF8C29007314D9 /* BombKitGameRatingModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770BC1CBF8C29007314D9 /* BombKitGameRatingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770B81CBF8C29007314D9 /* BombKitGameRatingModel.m */; };
+		0EE770BD1CBF8C29007314D9 /* BombKitGameRatingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770B81CBF8C29007314D9 /* BombKitGameRatingModel.m */; };
+		0EE770BE1CBF8C29007314D9 /* BombKitGameRatingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770B81CBF8C29007314D9 /* BombKitGameRatingModel.m */; };
+		0EE770C11CBF8C54007314D9 /* BombKitGenreModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770BF1CBF8C54007314D9 /* BombKitGenreModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770C21CBF8C54007314D9 /* BombKitGenreModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770BF1CBF8C54007314D9 /* BombKitGenreModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770C31CBF8C54007314D9 /* BombKitGenreModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770BF1CBF8C54007314D9 /* BombKitGenreModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770C41CBF8C54007314D9 /* BombKitGenreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770C01CBF8C54007314D9 /* BombKitGenreModel.m */; };
+		0EE770C51CBF8C54007314D9 /* BombKitGenreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770C01CBF8C54007314D9 /* BombKitGenreModel.m */; };
+		0EE770C61CBF8C54007314D9 /* BombKitGenreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770C01CBF8C54007314D9 /* BombKitGenreModel.m */; };
+		0EE770C91CBF8C5F007314D9 /* BombKitLocationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770C71CBF8C5F007314D9 /* BombKitLocationModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770CA1CBF8C5F007314D9 /* BombKitLocationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770C71CBF8C5F007314D9 /* BombKitLocationModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770CB1CBF8C5F007314D9 /* BombKitLocationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770C71CBF8C5F007314D9 /* BombKitLocationModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770CC1CBF8C5F007314D9 /* BombKitLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770C81CBF8C5F007314D9 /* BombKitLocationModel.m */; };
+		0EE770CD1CBF8C5F007314D9 /* BombKitLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770C81CBF8C5F007314D9 /* BombKitLocationModel.m */; };
+		0EE770CE1CBF8C5F007314D9 /* BombKitLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770C81CBF8C5F007314D9 /* BombKitLocationModel.m */; };
+		0EE770D11CBF8C68007314D9 /* BombKitObjectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770CF1CBF8C68007314D9 /* BombKitObjectModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770D21CBF8C68007314D9 /* BombKitObjectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770CF1CBF8C68007314D9 /* BombKitObjectModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770D31CBF8C68007314D9 /* BombKitObjectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770CF1CBF8C68007314D9 /* BombKitObjectModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770D41CBF8C68007314D9 /* BombKitObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770D01CBF8C68007314D9 /* BombKitObjectModel.m */; };
+		0EE770D51CBF8C68007314D9 /* BombKitObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770D01CBF8C68007314D9 /* BombKitObjectModel.m */; };
+		0EE770D61CBF8C68007314D9 /* BombKitObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770D01CBF8C68007314D9 /* BombKitObjectModel.m */; };
+		0EE770D91CBF8C74007314D9 /* BombKitPersonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770D71CBF8C74007314D9 /* BombKitPersonModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770DA1CBF8C74007314D9 /* BombKitPersonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770D71CBF8C74007314D9 /* BombKitPersonModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770DB1CBF8C74007314D9 /* BombKitPersonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770D71CBF8C74007314D9 /* BombKitPersonModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770DC1CBF8C74007314D9 /* BombKitPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770D81CBF8C74007314D9 /* BombKitPersonModel.m */; };
+		0EE770DD1CBF8C74007314D9 /* BombKitPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770D81CBF8C74007314D9 /* BombKitPersonModel.m */; };
+		0EE770DE1CBF8C74007314D9 /* BombKitPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770D81CBF8C74007314D9 /* BombKitPersonModel.m */; };
+		0EE770E11CBF8C81007314D9 /* BombKitPlatformModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770DF1CBF8C81007314D9 /* BombKitPlatformModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770E21CBF8C81007314D9 /* BombKitPlatformModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770DF1CBF8C81007314D9 /* BombKitPlatformModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770E31CBF8C81007314D9 /* BombKitPlatformModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770DF1CBF8C81007314D9 /* BombKitPlatformModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770E41CBF8C81007314D9 /* BombKitPlatformModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770E01CBF8C81007314D9 /* BombKitPlatformModel.m */; };
+		0EE770E51CBF8C81007314D9 /* BombKitPlatformModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770E01CBF8C81007314D9 /* BombKitPlatformModel.m */; };
+		0EE770E61CBF8C81007314D9 /* BombKitPlatformModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770E01CBF8C81007314D9 /* BombKitPlatformModel.m */; };
+		0EE770E91CBF8C8D007314D9 /* BombKitPromoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770E71CBF8C8D007314D9 /* BombKitPromoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770EA1CBF8C8D007314D9 /* BombKitPromoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770E71CBF8C8D007314D9 /* BombKitPromoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770EB1CBF8C8D007314D9 /* BombKitPromoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770E71CBF8C8D007314D9 /* BombKitPromoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770EC1CBF8C8D007314D9 /* BombKitPromoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770E81CBF8C8D007314D9 /* BombKitPromoModel.m */; };
+		0EE770ED1CBF8C8D007314D9 /* BombKitPromoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770E81CBF8C8D007314D9 /* BombKitPromoModel.m */; };
+		0EE770EE1CBF8C8D007314D9 /* BombKitPromoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770E81CBF8C8D007314D9 /* BombKitPromoModel.m */; };
+		0EE770F11CBF8C99007314D9 /* BombKitRatingBoardModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770EF1CBF8C99007314D9 /* BombKitRatingBoardModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770F21CBF8C99007314D9 /* BombKitRatingBoardModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770EF1CBF8C99007314D9 /* BombKitRatingBoardModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770F31CBF8C99007314D9 /* BombKitRatingBoardModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770EF1CBF8C99007314D9 /* BombKitRatingBoardModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770F41CBF8C99007314D9 /* BombKitRatingBoardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770F01CBF8C99007314D9 /* BombKitRatingBoardModel.m */; };
+		0EE770F51CBF8C99007314D9 /* BombKitRatingBoardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770F01CBF8C99007314D9 /* BombKitRatingBoardModel.m */; };
+		0EE770F61CBF8C99007314D9 /* BombKitRatingBoardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770F01CBF8C99007314D9 /* BombKitRatingBoardModel.m */; };
+		0EE770F91CBF8CA9007314D9 /* BombKitRegionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770F71CBF8CA9007314D9 /* BombKitRegionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770FA1CBF8CA9007314D9 /* BombKitRegionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770F71CBF8CA9007314D9 /* BombKitRegionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770FB1CBF8CA9007314D9 /* BombKitRegionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770F71CBF8CA9007314D9 /* BombKitRegionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE770FC1CBF8CA9007314D9 /* BombKitRegionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770F81CBF8CA9007314D9 /* BombKitRegionModel.m */; };
+		0EE770FD1CBF8CA9007314D9 /* BombKitRegionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770F81CBF8CA9007314D9 /* BombKitRegionModel.m */; };
+		0EE770FE1CBF8CA9007314D9 /* BombKitRegionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE770F81CBF8CA9007314D9 /* BombKitRegionModel.m */; };
+		0EE771011CBF8CB8007314D9 /* BombKitReleaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770FF1CBF8CB8007314D9 /* BombKitReleaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE771021CBF8CB8007314D9 /* BombKitReleaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770FF1CBF8CB8007314D9 /* BombKitReleaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE771031CBF8CB8007314D9 /* BombKitReleaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770FF1CBF8CB8007314D9 /* BombKitReleaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE771041CBF8CB8007314D9 /* BombKitReleaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771001CBF8CB8007314D9 /* BombKitReleaseModel.m */; };
+		0EE771051CBF8CB8007314D9 /* BombKitReleaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771001CBF8CB8007314D9 /* BombKitReleaseModel.m */; };
+		0EE771061CBF8CB8007314D9 /* BombKitReleaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771001CBF8CB8007314D9 /* BombKitReleaseModel.m */; };
+		0EE771091CBF8CC1007314D9 /* BombKitReviewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771071CBF8CC1007314D9 /* BombKitReviewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7710A1CBF8CC1007314D9 /* BombKitReviewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771071CBF8CC1007314D9 /* BombKitReviewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7710B1CBF8CC1007314D9 /* BombKitReviewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771071CBF8CC1007314D9 /* BombKitReviewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7710C1CBF8CC1007314D9 /* BombKitReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771081CBF8CC1007314D9 /* BombKitReviewModel.m */; };
+		0EE7710D1CBF8CC1007314D9 /* BombKitReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771081CBF8CC1007314D9 /* BombKitReviewModel.m */; };
+		0EE7710E1CBF8CC1007314D9 /* BombKitReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771081CBF8CC1007314D9 /* BombKitReviewModel.m */; };
+		0EE771111CBF8CCB007314D9 /* BombKitThemeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7710F1CBF8CCB007314D9 /* BombKitThemeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE771121CBF8CCB007314D9 /* BombKitThemeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7710F1CBF8CCB007314D9 /* BombKitThemeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE771131CBF8CCB007314D9 /* BombKitThemeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7710F1CBF8CCB007314D9 /* BombKitThemeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE771141CBF8CCB007314D9 /* BombKitThemeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771101CBF8CCB007314D9 /* BombKitThemeModel.m */; };
+		0EE771151CBF8CCB007314D9 /* BombKitThemeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771101CBF8CCB007314D9 /* BombKitThemeModel.m */; };
+		0EE771161CBF8CCB007314D9 /* BombKitThemeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771101CBF8CCB007314D9 /* BombKitThemeModel.m */; };
+		0EE771191CBF8CD5007314D9 /* BombKitTypesModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771171CBF8CD5007314D9 /* BombKitTypesModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7711A1CBF8CD5007314D9 /* BombKitTypesModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771171CBF8CD5007314D9 /* BombKitTypesModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7711B1CBF8CD5007314D9 /* BombKitTypesModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771171CBF8CD5007314D9 /* BombKitTypesModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7711C1CBF8CD5007314D9 /* BombKitTypesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771181CBF8CD5007314D9 /* BombKitTypesModel.m */; };
+		0EE7711D1CBF8CD5007314D9 /* BombKitTypesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771181CBF8CD5007314D9 /* BombKitTypesModel.m */; };
+		0EE7711E1CBF8CD5007314D9 /* BombKitTypesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771181CBF8CD5007314D9 /* BombKitTypesModel.m */; };
+		0EE771211CBF8CDF007314D9 /* BombKitUserReviewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7711F1CBF8CDF007314D9 /* BombKitUserReviewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE771221CBF8CDF007314D9 /* BombKitUserReviewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7711F1CBF8CDF007314D9 /* BombKitUserReviewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE771231CBF8CDF007314D9 /* BombKitUserReviewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7711F1CBF8CDF007314D9 /* BombKitUserReviewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE771241CBF8CDF007314D9 /* BombKitUserReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771201CBF8CDF007314D9 /* BombKitUserReviewModel.m */; };
+		0EE771251CBF8CDF007314D9 /* BombKitUserReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771201CBF8CDF007314D9 /* BombKitUserReviewModel.m */; };
+		0EE771261CBF8CDF007314D9 /* BombKitUserReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771201CBF8CDF007314D9 /* BombKitUserReviewModel.m */; };
+		0EE771291CBF8CEA007314D9 /* BombKitVideoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771271CBF8CEA007314D9 /* BombKitVideoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7712A1CBF8CEA007314D9 /* BombKitVideoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771271CBF8CEA007314D9 /* BombKitVideoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7712B1CBF8CEA007314D9 /* BombKitVideoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771271CBF8CEA007314D9 /* BombKitVideoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7712C1CBF8CEA007314D9 /* BombKitVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771281CBF8CEA007314D9 /* BombKitVideoModel.m */; };
+		0EE7712D1CBF8CEA007314D9 /* BombKitVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771281CBF8CEA007314D9 /* BombKitVideoModel.m */; };
+		0EE7712E1CBF8CEA007314D9 /* BombKitVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771281CBF8CEA007314D9 /* BombKitVideoModel.m */; };
+		0EE771311CBF8CF6007314D9 /* BombKitVideoTypeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7712F1CBF8CF6007314D9 /* BombKitVideoTypeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE771321CBF8CF6007314D9 /* BombKitVideoTypeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7712F1CBF8CF6007314D9 /* BombKitVideoTypeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE771331CBF8CF6007314D9 /* BombKitVideoTypeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7712F1CBF8CF6007314D9 /* BombKitVideoTypeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE771341CBF8CF6007314D9 /* BombKitVideoTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771301CBF8CF6007314D9 /* BombKitVideoTypeModel.m */; };
+		0EE771351CBF8CF6007314D9 /* BombKitVideoTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771301CBF8CF6007314D9 /* BombKitVideoTypeModel.m */; };
+		0EE771361CBF8CF6007314D9 /* BombKitVideoTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771301CBF8CF6007314D9 /* BombKitVideoTypeModel.m */; };
+		0EE771391CBF8D02007314D9 /* BombKitVideoShowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771371CBF8D02007314D9 /* BombKitVideoShowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7713A1CBF8D02007314D9 /* BombKitVideoShowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771371CBF8D02007314D9 /* BombKitVideoShowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7713B1CBF8D02007314D9 /* BombKitVideoShowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771371CBF8D02007314D9 /* BombKitVideoShowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE7713C1CBF8D02007314D9 /* BombKitVideoShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771381CBF8D02007314D9 /* BombKitVideoShowModel.m */; };
+		0EE7713D1CBF8D02007314D9 /* BombKitVideoShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771381CBF8D02007314D9 /* BombKitVideoShowModel.m */; };
+		0EE7713E1CBF8D02007314D9 /* BombKitVideoShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771381CBF8D02007314D9 /* BombKitVideoShowModel.m */; };
+		0EE771451CBF9608007314D9 /* BombKitModelFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771431CBF9608007314D9 /* BombKitModelFactory.h */; };
+		0EE771461CBF9608007314D9 /* BombKitModelFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771431CBF9608007314D9 /* BombKitModelFactory.h */; };
+		0EE771471CBF9608007314D9 /* BombKitModelFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE771431CBF9608007314D9 /* BombKitModelFactory.h */; };
+		0EE771481CBF9608007314D9 /* BombKitModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771441CBF9608007314D9 /* BombKitModelFactory.m */; };
+		0EE771491CBF9608007314D9 /* BombKitModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771441CBF9608007314D9 /* BombKitModelFactory.m */; };
+		0EE7714A1CBF9608007314D9 /* BombKitModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE771441CBF9608007314D9 /* BombKitModelFactory.m */; };
 		0EFE6FC51CBDEE8700D5D26D /* BombKitConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EFE6FC31CBDEE8700D5D26D /* BombKitConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EFE6FC61CBDEE8700D5D26D /* BombKitConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EFE6FC31CBDEE8700D5D26D /* BombKitConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EFE6FC71CBDEE8700D5D26D /* BombKitConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EFE6FC31CBDEE8700D5D26D /* BombKitConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,6 +246,59 @@
 		0E279E871CBB564200F2582A /* BombRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombRequestBuilder.m; sourceTree = "<group>"; };
 		0E279E8E1CBB5C9700F2582A /* NSError+BombKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+BombKit.h"; sourceTree = "<group>"; };
 		0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+BombKit.m"; sourceTree = "<group>"; };
+		0EE770731CBF7DB7007314D9 /* BombBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombBaseModel.h; sourceTree = "<group>"; };
+		0EE770741CBF7DB7007314D9 /* BombBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombBaseModel.m; sourceTree = "<group>"; };
+		0EE7707B1CBF8226007314D9 /* BombKitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitModel.h; sourceTree = "<group>"; };
+		0EE7707F1CBF8BD2007314D9 /* BombKitAccessoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitAccessoryModel.h; sourceTree = "<group>"; };
+		0EE770801CBF8BD2007314D9 /* BombKitAccessoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitAccessoryModel.m; sourceTree = "<group>"; };
+		0EE770871CBF8BDD007314D9 /* BombKitCharacterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitCharacterModel.h; sourceTree = "<group>"; };
+		0EE770881CBF8BDD007314D9 /* BombKitCharacterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitCharacterModel.m; sourceTree = "<group>"; };
+		0EE7708F1CBF8BE8007314D9 /* BombKitChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitChatModel.h; sourceTree = "<group>"; };
+		0EE770901CBF8BE8007314D9 /* BombKitChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitChatModel.m; sourceTree = "<group>"; };
+		0EE770971CBF8BF4007314D9 /* BombKitCompanyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitCompanyModel.h; sourceTree = "<group>"; };
+		0EE770981CBF8BF4007314D9 /* BombKitCompanyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitCompanyModel.m; sourceTree = "<group>"; };
+		0EE7709F1CBF8BFF007314D9 /* BombKitConceptModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitConceptModel.h; sourceTree = "<group>"; };
+		0EE770A01CBF8BFF007314D9 /* BombKitConceptModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitConceptModel.m; sourceTree = "<group>"; };
+		0EE770A71CBF8C09007314D9 /* BombKitFranchiseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitFranchiseModel.h; sourceTree = "<group>"; };
+		0EE770A81CBF8C09007314D9 /* BombKitFranchiseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitFranchiseModel.m; sourceTree = "<group>"; };
+		0EE770AF1CBF8C13007314D9 /* BombKitGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitGameModel.h; sourceTree = "<group>"; };
+		0EE770B01CBF8C13007314D9 /* BombKitGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitGameModel.m; sourceTree = "<group>"; };
+		0EE770B71CBF8C29007314D9 /* BombKitGameRatingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitGameRatingModel.h; sourceTree = "<group>"; };
+		0EE770B81CBF8C29007314D9 /* BombKitGameRatingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitGameRatingModel.m; sourceTree = "<group>"; };
+		0EE770BF1CBF8C54007314D9 /* BombKitGenreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitGenreModel.h; sourceTree = "<group>"; };
+		0EE770C01CBF8C54007314D9 /* BombKitGenreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitGenreModel.m; sourceTree = "<group>"; };
+		0EE770C71CBF8C5F007314D9 /* BombKitLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitLocationModel.h; sourceTree = "<group>"; };
+		0EE770C81CBF8C5F007314D9 /* BombKitLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitLocationModel.m; sourceTree = "<group>"; };
+		0EE770CF1CBF8C68007314D9 /* BombKitObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitObjectModel.h; sourceTree = "<group>"; };
+		0EE770D01CBF8C68007314D9 /* BombKitObjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitObjectModel.m; sourceTree = "<group>"; };
+		0EE770D71CBF8C74007314D9 /* BombKitPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitPersonModel.h; sourceTree = "<group>"; };
+		0EE770D81CBF8C74007314D9 /* BombKitPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitPersonModel.m; sourceTree = "<group>"; };
+		0EE770DF1CBF8C81007314D9 /* BombKitPlatformModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitPlatformModel.h; sourceTree = "<group>"; };
+		0EE770E01CBF8C81007314D9 /* BombKitPlatformModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitPlatformModel.m; sourceTree = "<group>"; };
+		0EE770E71CBF8C8D007314D9 /* BombKitPromoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitPromoModel.h; sourceTree = "<group>"; };
+		0EE770E81CBF8C8D007314D9 /* BombKitPromoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitPromoModel.m; sourceTree = "<group>"; };
+		0EE770EF1CBF8C99007314D9 /* BombKitRatingBoardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitRatingBoardModel.h; sourceTree = "<group>"; };
+		0EE770F01CBF8C99007314D9 /* BombKitRatingBoardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitRatingBoardModel.m; sourceTree = "<group>"; };
+		0EE770F71CBF8CA9007314D9 /* BombKitRegionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitRegionModel.h; sourceTree = "<group>"; };
+		0EE770F81CBF8CA9007314D9 /* BombKitRegionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitRegionModel.m; sourceTree = "<group>"; };
+		0EE770FF1CBF8CB8007314D9 /* BombKitReleaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitReleaseModel.h; sourceTree = "<group>"; };
+		0EE771001CBF8CB8007314D9 /* BombKitReleaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitReleaseModel.m; sourceTree = "<group>"; };
+		0EE771071CBF8CC1007314D9 /* BombKitReviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitReviewModel.h; sourceTree = "<group>"; };
+		0EE771081CBF8CC1007314D9 /* BombKitReviewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitReviewModel.m; sourceTree = "<group>"; };
+		0EE7710F1CBF8CCB007314D9 /* BombKitThemeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitThemeModel.h; sourceTree = "<group>"; };
+		0EE771101CBF8CCB007314D9 /* BombKitThemeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitThemeModel.m; sourceTree = "<group>"; };
+		0EE771171CBF8CD5007314D9 /* BombKitTypesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitTypesModel.h; sourceTree = "<group>"; };
+		0EE771181CBF8CD5007314D9 /* BombKitTypesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitTypesModel.m; sourceTree = "<group>"; };
+		0EE7711F1CBF8CDF007314D9 /* BombKitUserReviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitUserReviewModel.h; sourceTree = "<group>"; };
+		0EE771201CBF8CDF007314D9 /* BombKitUserReviewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitUserReviewModel.m; sourceTree = "<group>"; };
+		0EE771271CBF8CEA007314D9 /* BombKitVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitVideoModel.h; sourceTree = "<group>"; };
+		0EE771281CBF8CEA007314D9 /* BombKitVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitVideoModel.m; sourceTree = "<group>"; };
+		0EE7712F1CBF8CF6007314D9 /* BombKitVideoTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitVideoTypeModel.h; sourceTree = "<group>"; };
+		0EE771301CBF8CF6007314D9 /* BombKitVideoTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitVideoTypeModel.m; sourceTree = "<group>"; };
+		0EE771371CBF8D02007314D9 /* BombKitVideoShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitVideoShowModel.h; sourceTree = "<group>"; };
+		0EE771381CBF8D02007314D9 /* BombKitVideoShowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitVideoShowModel.m; sourceTree = "<group>"; };
+		0EE771431CBF9608007314D9 /* BombKitModelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitModelFactory.h; sourceTree = "<group>"; };
+		0EE771441CBF9608007314D9 /* BombKitModelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitModelFactory.m; sourceTree = "<group>"; };
 		0EFE6FC31CBDEE8700D5D26D /* BombKitConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitConstant.h; sourceTree = "<group>"; };
 		0EFE6FC41CBDEE8700D5D26D /* BombKitConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitConstant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -220,14 +432,13 @@
 		0E279E781CBB54B800F2582A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0EE770721CBF7D84007314D9 /* Model */,
+				0EE770711CBF7D7A007314D9 /* Factory */,
+				0EFE6FCD1CBF40ED00D5D26D /* Error */,
+				0EFE6FCC1CBF40E100D5D26D /* Constant */,
+				0EFE6FCB1CBF40C600D5D26D /* Builder */,
 				0E279E7A1CBB54E500F2582A /* BombRequest.h */,
 				0E279E7B1CBB54E500F2582A /* BombRequest.m */,
-				0E279E861CBB564200F2582A /* BombRequestBuilder.h */,
-				0E279E871CBB564200F2582A /* BombRequestBuilder.m */,
-				0E279E8E1CBB5C9700F2582A /* NSError+BombKit.h */,
-				0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */,
-				0EFE6FC31CBDEE8700D5D26D /* BombKitConstant.h */,
-				0EFE6FC41CBDEE8700D5D26D /* BombKitConstant.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -240,6 +451,100 @@
 			path = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
+		0EE770711CBF7D7A007314D9 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				0EE771431CBF9608007314D9 /* BombKitModelFactory.h */,
+				0EE771441CBF9608007314D9 /* BombKitModelFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		0EE770721CBF7D84007314D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0EE770731CBF7DB7007314D9 /* BombBaseModel.h */,
+				0EE770741CBF7DB7007314D9 /* BombBaseModel.m */,
+				0EE7707B1CBF8226007314D9 /* BombKitModel.h */,
+				0EE7707F1CBF8BD2007314D9 /* BombKitAccessoryModel.h */,
+				0EE770801CBF8BD2007314D9 /* BombKitAccessoryModel.m */,
+				0EE770871CBF8BDD007314D9 /* BombKitCharacterModel.h */,
+				0EE770881CBF8BDD007314D9 /* BombKitCharacterModel.m */,
+				0EE7708F1CBF8BE8007314D9 /* BombKitChatModel.h */,
+				0EE770901CBF8BE8007314D9 /* BombKitChatModel.m */,
+				0EE770971CBF8BF4007314D9 /* BombKitCompanyModel.h */,
+				0EE770981CBF8BF4007314D9 /* BombKitCompanyModel.m */,
+				0EE7709F1CBF8BFF007314D9 /* BombKitConceptModel.h */,
+				0EE770A01CBF8BFF007314D9 /* BombKitConceptModel.m */,
+				0EE770A71CBF8C09007314D9 /* BombKitFranchiseModel.h */,
+				0EE770A81CBF8C09007314D9 /* BombKitFranchiseModel.m */,
+				0EE770AF1CBF8C13007314D9 /* BombKitGameModel.h */,
+				0EE770B01CBF8C13007314D9 /* BombKitGameModel.m */,
+				0EE770B71CBF8C29007314D9 /* BombKitGameRatingModel.h */,
+				0EE770B81CBF8C29007314D9 /* BombKitGameRatingModel.m */,
+				0EE770BF1CBF8C54007314D9 /* BombKitGenreModel.h */,
+				0EE770C01CBF8C54007314D9 /* BombKitGenreModel.m */,
+				0EE770C71CBF8C5F007314D9 /* BombKitLocationModel.h */,
+				0EE770C81CBF8C5F007314D9 /* BombKitLocationModel.m */,
+				0EE770CF1CBF8C68007314D9 /* BombKitObjectModel.h */,
+				0EE770D01CBF8C68007314D9 /* BombKitObjectModel.m */,
+				0EE770D71CBF8C74007314D9 /* BombKitPersonModel.h */,
+				0EE770D81CBF8C74007314D9 /* BombKitPersonModel.m */,
+				0EE770DF1CBF8C81007314D9 /* BombKitPlatformModel.h */,
+				0EE770E01CBF8C81007314D9 /* BombKitPlatformModel.m */,
+				0EE770E71CBF8C8D007314D9 /* BombKitPromoModel.h */,
+				0EE770E81CBF8C8D007314D9 /* BombKitPromoModel.m */,
+				0EE770EF1CBF8C99007314D9 /* BombKitRatingBoardModel.h */,
+				0EE770F01CBF8C99007314D9 /* BombKitRatingBoardModel.m */,
+				0EE770F71CBF8CA9007314D9 /* BombKitRegionModel.h */,
+				0EE770F81CBF8CA9007314D9 /* BombKitRegionModel.m */,
+				0EE770FF1CBF8CB8007314D9 /* BombKitReleaseModel.h */,
+				0EE771001CBF8CB8007314D9 /* BombKitReleaseModel.m */,
+				0EE771071CBF8CC1007314D9 /* BombKitReviewModel.h */,
+				0EE771081CBF8CC1007314D9 /* BombKitReviewModel.m */,
+				0EE7710F1CBF8CCB007314D9 /* BombKitThemeModel.h */,
+				0EE771101CBF8CCB007314D9 /* BombKitThemeModel.m */,
+				0EE771171CBF8CD5007314D9 /* BombKitTypesModel.h */,
+				0EE771181CBF8CD5007314D9 /* BombKitTypesModel.m */,
+				0EE7711F1CBF8CDF007314D9 /* BombKitUserReviewModel.h */,
+				0EE771201CBF8CDF007314D9 /* BombKitUserReviewModel.m */,
+				0EE771271CBF8CEA007314D9 /* BombKitVideoModel.h */,
+				0EE771281CBF8CEA007314D9 /* BombKitVideoModel.m */,
+				0EE7712F1CBF8CF6007314D9 /* BombKitVideoTypeModel.h */,
+				0EE771301CBF8CF6007314D9 /* BombKitVideoTypeModel.m */,
+				0EE771371CBF8D02007314D9 /* BombKitVideoShowModel.h */,
+				0EE771381CBF8D02007314D9 /* BombKitVideoShowModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0EFE6FCB1CBF40C600D5D26D /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				0E279E861CBB564200F2582A /* BombRequestBuilder.h */,
+				0E279E871CBB564200F2582A /* BombRequestBuilder.m */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+		0EFE6FCC1CBF40E100D5D26D /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				0EFE6FC31CBDEE8700D5D26D /* BombKitConstant.h */,
+				0EFE6FC41CBDEE8700D5D26D /* BombKitConstant.m */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		0EFE6FCD1CBF40ED00D5D26D /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				0E279E8E1CBB5C9700F2582A /* NSError+BombKit.h */,
+				0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */,
+			);
+			name = Error;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -247,11 +552,38 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE771391CBF8D02007314D9 /* BombKitVideoShowModel.h in Headers */,
+				0EE771211CBF8CDF007314D9 /* BombKitUserReviewModel.h in Headers */,
+				0EE771091CBF8CC1007314D9 /* BombKitReviewModel.h in Headers */,
+				0EE770891CBF8BDD007314D9 /* BombKitCharacterModel.h in Headers */,
 				0EFE6FC51CBDEE8700D5D26D /* BombKitConstant.h in Headers */,
+				0EE770991CBF8BF4007314D9 /* BombKitCompanyModel.h in Headers */,
+				0EE770E91CBF8C8D007314D9 /* BombKitPromoModel.h in Headers */,
+				0EE770C11CBF8C54007314D9 /* BombKitGenreModel.h in Headers */,
 				0E279E7C1CBB54E500F2582A /* BombRequest.h in Headers */,
+				0EE771111CBF8CCB007314D9 /* BombKitThemeModel.h in Headers */,
+				0EE770A91CBF8C09007314D9 /* BombKitFranchiseModel.h in Headers */,
+				0EE770D11CBF8C68007314D9 /* BombKitObjectModel.h in Headers */,
+				0EE770B11CBF8C13007314D9 /* BombKitGameModel.h in Headers */,
+				0EE771191CBF8CD5007314D9 /* BombKitTypesModel.h in Headers */,
+				0EE770811CBF8BD2007314D9 /* BombKitAccessoryModel.h in Headers */,
 				0E279E901CBB5C9700F2582A /* NSError+BombKit.h in Headers */,
+				0EE770751CBF7DB7007314D9 /* BombBaseModel.h in Headers */,
 				0E279E881CBB564200F2582A /* BombRequestBuilder.h in Headers */,
+				0EE770B91CBF8C29007314D9 /* BombKitGameRatingModel.h in Headers */,
+				0EE770A11CBF8BFF007314D9 /* BombKitConceptModel.h in Headers */,
+				0EE770F91CBF8CA9007314D9 /* BombKitRegionModel.h in Headers */,
+				0EE770E11CBF8C81007314D9 /* BombKitPlatformModel.h in Headers */,
+				0EE770D91CBF8C74007314D9 /* BombKitPersonModel.h in Headers */,
 				0E279E1D1CBB52E900F2582A /* BombKit.h in Headers */,
+				0EE7707C1CBF8226007314D9 /* BombKitModel.h in Headers */,
+				0EE771291CBF8CEA007314D9 /* BombKitVideoModel.h in Headers */,
+				0EE770911CBF8BE8007314D9 /* BombKitChatModel.h in Headers */,
+				0EE771011CBF8CB8007314D9 /* BombKitReleaseModel.h in Headers */,
+				0EE771451CBF9608007314D9 /* BombKitModelFactory.h in Headers */,
+				0EE771311CBF8CF6007314D9 /* BombKitVideoTypeModel.h in Headers */,
+				0EE770C91CBF8C5F007314D9 /* BombKitLocationModel.h in Headers */,
+				0EE770F11CBF8C99007314D9 /* BombKitRatingBoardModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,11 +591,38 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE7713A1CBF8D02007314D9 /* BombKitVideoShowModel.h in Headers */,
+				0EE771221CBF8CDF007314D9 /* BombKitUserReviewModel.h in Headers */,
+				0EE7710A1CBF8CC1007314D9 /* BombKitReviewModel.h in Headers */,
+				0EE7708A1CBF8BDD007314D9 /* BombKitCharacterModel.h in Headers */,
 				0E279E7D1CBB54E500F2582A /* BombRequest.h in Headers */,
+				0EE7709A1CBF8BF4007314D9 /* BombKitCompanyModel.h in Headers */,
+				0EE770EA1CBF8C8D007314D9 /* BombKitPromoModel.h in Headers */,
+				0EE770C21CBF8C54007314D9 /* BombKitGenreModel.h in Headers */,
 				0EFE6FC61CBDEE8700D5D26D /* BombKitConstant.h in Headers */,
+				0EE771121CBF8CCB007314D9 /* BombKitThemeModel.h in Headers */,
+				0EE770AA1CBF8C09007314D9 /* BombKitFranchiseModel.h in Headers */,
+				0EE770D21CBF8C68007314D9 /* BombKitObjectModel.h in Headers */,
+				0EE770B21CBF8C13007314D9 /* BombKitGameModel.h in Headers */,
+				0EE7711A1CBF8CD5007314D9 /* BombKitTypesModel.h in Headers */,
+				0EE770821CBF8BD2007314D9 /* BombKitAccessoryModel.h in Headers */,
 				0E279E911CBB5C9700F2582A /* NSError+BombKit.h in Headers */,
+				0EE770761CBF7DB7007314D9 /* BombBaseModel.h in Headers */,
 				0E279E891CBB564200F2582A /* BombRequestBuilder.h in Headers */,
+				0EE770BA1CBF8C29007314D9 /* BombKitGameRatingModel.h in Headers */,
+				0EE770A21CBF8BFF007314D9 /* BombKitConceptModel.h in Headers */,
+				0EE770FA1CBF8CA9007314D9 /* BombKitRegionModel.h in Headers */,
+				0EE770E21CBF8C81007314D9 /* BombKitPlatformModel.h in Headers */,
+				0EE770DA1CBF8C74007314D9 /* BombKitPersonModel.h in Headers */,
 				748E3BD51CBD38C600133052 /* BombKit.h in Headers */,
+				0EE7707D1CBF8226007314D9 /* BombKitModel.h in Headers */,
+				0EE7712A1CBF8CEA007314D9 /* BombKitVideoModel.h in Headers */,
+				0EE770921CBF8BE8007314D9 /* BombKitChatModel.h in Headers */,
+				0EE771021CBF8CB8007314D9 /* BombKitReleaseModel.h in Headers */,
+				0EE771461CBF9608007314D9 /* BombKitModelFactory.h in Headers */,
+				0EE771321CBF8CF6007314D9 /* BombKitVideoTypeModel.h in Headers */,
+				0EE770CA1CBF8C5F007314D9 /* BombKitLocationModel.h in Headers */,
+				0EE770F21CBF8C99007314D9 /* BombKitRatingBoardModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,11 +630,38 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE7713B1CBF8D02007314D9 /* BombKitVideoShowModel.h in Headers */,
+				0EE771231CBF8CDF007314D9 /* BombKitUserReviewModel.h in Headers */,
+				0EE7710B1CBF8CC1007314D9 /* BombKitReviewModel.h in Headers */,
+				0EE7708B1CBF8BDD007314D9 /* BombKitCharacterModel.h in Headers */,
 				0E279E7E1CBB54E500F2582A /* BombRequest.h in Headers */,
+				0EE7709B1CBF8BF4007314D9 /* BombKitCompanyModel.h in Headers */,
+				0EE770EB1CBF8C8D007314D9 /* BombKitPromoModel.h in Headers */,
+				0EE770C31CBF8C54007314D9 /* BombKitGenreModel.h in Headers */,
 				0EFE6FC71CBDEE8700D5D26D /* BombKitConstant.h in Headers */,
+				0EE771131CBF8CCB007314D9 /* BombKitThemeModel.h in Headers */,
+				0EE770AB1CBF8C09007314D9 /* BombKitFranchiseModel.h in Headers */,
+				0EE770D31CBF8C68007314D9 /* BombKitObjectModel.h in Headers */,
+				0EE770B31CBF8C13007314D9 /* BombKitGameModel.h in Headers */,
+				0EE7711B1CBF8CD5007314D9 /* BombKitTypesModel.h in Headers */,
+				0EE770831CBF8BD2007314D9 /* BombKitAccessoryModel.h in Headers */,
 				0E279E921CBB5C9700F2582A /* NSError+BombKit.h in Headers */,
+				0EE770771CBF7DB7007314D9 /* BombBaseModel.h in Headers */,
 				0E279E8A1CBB564200F2582A /* BombRequestBuilder.h in Headers */,
+				0EE770BB1CBF8C29007314D9 /* BombKitGameRatingModel.h in Headers */,
+				0EE770A31CBF8BFF007314D9 /* BombKitConceptModel.h in Headers */,
+				0EE770FB1CBF8CA9007314D9 /* BombKitRegionModel.h in Headers */,
+				0EE770E31CBF8C81007314D9 /* BombKitPlatformModel.h in Headers */,
+				0EE770DB1CBF8C74007314D9 /* BombKitPersonModel.h in Headers */,
 				748E3BD61CBD38C700133052 /* BombKit.h in Headers */,
+				0EE7707E1CBF8226007314D9 /* BombKitModel.h in Headers */,
+				0EE7712B1CBF8CEA007314D9 /* BombKitVideoModel.h in Headers */,
+				0EE770931CBF8BE8007314D9 /* BombKitChatModel.h in Headers */,
+				0EE771031CBF8CB8007314D9 /* BombKitReleaseModel.h in Headers */,
+				0EE771471CBF9608007314D9 /* BombKitModelFactory.h in Headers */,
+				0EE771331CBF8CF6007314D9 /* BombKitVideoTypeModel.h in Headers */,
+				0EE770CB1CBF8C5F007314D9 /* BombKitLocationModel.h in Headers */,
+				0EE770F31CBF8C99007314D9 /* BombKitRatingBoardModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +782,7 @@
 		0E279E101CBB52E900F2582A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BombKit;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = darkcl;
 				TargetAttributes = {
@@ -492,9 +879,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E279E7F1CBB54E500F2582A /* BombRequest.m in Sources */,
+				0EE7710C1CBF8CC1007314D9 /* BombKitReviewModel.m in Sources */,
 				0E279E8B1CBB564200F2582A /* BombRequestBuilder.m in Sources */,
+				0EE771241CBF8CDF007314D9 /* BombKitUserReviewModel.m in Sources */,
+				0EE771041CBF8CB8007314D9 /* BombKitReleaseModel.m in Sources */,
+				0EE770C41CBF8C54007314D9 /* BombKitGenreModel.m in Sources */,
+				0EE7709C1CBF8BF4007314D9 /* BombKitCompanyModel.m in Sources */,
+				0EE7711C1CBF8CD5007314D9 /* BombKitTypesModel.m in Sources */,
+				0EE771341CBF8CF6007314D9 /* BombKitVideoTypeModel.m in Sources */,
+				0EE771481CBF9608007314D9 /* BombKitModelFactory.m in Sources */,
+				0EE770A41CBF8BFF007314D9 /* BombKitConceptModel.m in Sources */,
+				0EE770BC1CBF8C29007314D9 /* BombKitGameRatingModel.m in Sources */,
+				0EE770DC1CBF8C74007314D9 /* BombKitPersonModel.m in Sources */,
+				0EE770B41CBF8C13007314D9 /* BombKitGameModel.m in Sources */,
+				0EE771141CBF8CCB007314D9 /* BombKitThemeModel.m in Sources */,
+				0EE770AC1CBF8C09007314D9 /* BombKitFranchiseModel.m in Sources */,
+				0EE7712C1CBF8CEA007314D9 /* BombKitVideoModel.m in Sources */,
 				0EFE6FC81CBDEE8700D5D26D /* BombKitConstant.m in Sources */,
+				0EE770841CBF8BD2007314D9 /* BombKitAccessoryModel.m in Sources */,
+				0EE7713C1CBF8D02007314D9 /* BombKitVideoShowModel.m in Sources */,
+				0EE770E41CBF8C81007314D9 /* BombKitPlatformModel.m in Sources */,
+				0EE770781CBF7DB7007314D9 /* BombBaseModel.m in Sources */,
+				0EE7708C1CBF8BDD007314D9 /* BombKitCharacterModel.m in Sources */,
+				0EE770941CBF8BE8007314D9 /* BombKitChatModel.m in Sources */,
+				0EE770EC1CBF8C8D007314D9 /* BombKitPromoModel.m in Sources */,
 				0E279E931CBB5C9700F2582A /* NSError+BombKit.m in Sources */,
+				0EE770FC1CBF8CA9007314D9 /* BombKitRegionModel.m in Sources */,
+				0EE770CC1CBF8C5F007314D9 /* BombKitLocationModel.m in Sources */,
+				0EE770F41CBF8C99007314D9 /* BombKitRatingBoardModel.m in Sources */,
+				0EE770D41CBF8C68007314D9 /* BombKitObjectModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,9 +924,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E279E801CBB54E500F2582A /* BombRequest.m in Sources */,
+				0EE7710D1CBF8CC1007314D9 /* BombKitReviewModel.m in Sources */,
 				0E279E8C1CBB564200F2582A /* BombRequestBuilder.m in Sources */,
+				0EE771251CBF8CDF007314D9 /* BombKitUserReviewModel.m in Sources */,
+				0EE771051CBF8CB8007314D9 /* BombKitReleaseModel.m in Sources */,
+				0EE770C51CBF8C54007314D9 /* BombKitGenreModel.m in Sources */,
+				0EE7709D1CBF8BF4007314D9 /* BombKitCompanyModel.m in Sources */,
+				0EE7711D1CBF8CD5007314D9 /* BombKitTypesModel.m in Sources */,
+				0EE771351CBF8CF6007314D9 /* BombKitVideoTypeModel.m in Sources */,
+				0EE771491CBF9608007314D9 /* BombKitModelFactory.m in Sources */,
+				0EE770A51CBF8BFF007314D9 /* BombKitConceptModel.m in Sources */,
+				0EE770BD1CBF8C29007314D9 /* BombKitGameRatingModel.m in Sources */,
+				0EE770DD1CBF8C74007314D9 /* BombKitPersonModel.m in Sources */,
+				0EE770B51CBF8C13007314D9 /* BombKitGameModel.m in Sources */,
+				0EE771151CBF8CCB007314D9 /* BombKitThemeModel.m in Sources */,
+				0EE770AD1CBF8C09007314D9 /* BombKitFranchiseModel.m in Sources */,
+				0EE7712D1CBF8CEA007314D9 /* BombKitVideoModel.m in Sources */,
 				0EFE6FC91CBDEE8700D5D26D /* BombKitConstant.m in Sources */,
+				0EE770851CBF8BD2007314D9 /* BombKitAccessoryModel.m in Sources */,
+				0EE7713D1CBF8D02007314D9 /* BombKitVideoShowModel.m in Sources */,
+				0EE770E51CBF8C81007314D9 /* BombKitPlatformModel.m in Sources */,
+				0EE770791CBF7DB7007314D9 /* BombBaseModel.m in Sources */,
+				0EE7708D1CBF8BDD007314D9 /* BombKitCharacterModel.m in Sources */,
+				0EE770951CBF8BE8007314D9 /* BombKitChatModel.m in Sources */,
+				0EE770ED1CBF8C8D007314D9 /* BombKitPromoModel.m in Sources */,
 				0E279E941CBB5C9700F2582A /* NSError+BombKit.m in Sources */,
+				0EE770FD1CBF8CA9007314D9 /* BombKitRegionModel.m in Sources */,
+				0EE770CD1CBF8C5F007314D9 /* BombKitLocationModel.m in Sources */,
+				0EE770F51CBF8C99007314D9 /* BombKitRatingBoardModel.m in Sources */,
+				0EE770D51CBF8C68007314D9 /* BombKitObjectModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,9 +969,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E279E811CBB54E500F2582A /* BombRequest.m in Sources */,
+				0EE7710E1CBF8CC1007314D9 /* BombKitReviewModel.m in Sources */,
 				0E279E8D1CBB564200F2582A /* BombRequestBuilder.m in Sources */,
+				0EE771261CBF8CDF007314D9 /* BombKitUserReviewModel.m in Sources */,
+				0EE771061CBF8CB8007314D9 /* BombKitReleaseModel.m in Sources */,
+				0EE770C61CBF8C54007314D9 /* BombKitGenreModel.m in Sources */,
+				0EE7709E1CBF8BF4007314D9 /* BombKitCompanyModel.m in Sources */,
+				0EE7711E1CBF8CD5007314D9 /* BombKitTypesModel.m in Sources */,
+				0EE771361CBF8CF6007314D9 /* BombKitVideoTypeModel.m in Sources */,
+				0EE7714A1CBF9608007314D9 /* BombKitModelFactory.m in Sources */,
+				0EE770A61CBF8BFF007314D9 /* BombKitConceptModel.m in Sources */,
+				0EE770BE1CBF8C29007314D9 /* BombKitGameRatingModel.m in Sources */,
+				0EE770DE1CBF8C74007314D9 /* BombKitPersonModel.m in Sources */,
+				0EE770B61CBF8C13007314D9 /* BombKitGameModel.m in Sources */,
+				0EE771161CBF8CCB007314D9 /* BombKitThemeModel.m in Sources */,
+				0EE770AE1CBF8C09007314D9 /* BombKitFranchiseModel.m in Sources */,
+				0EE7712E1CBF8CEA007314D9 /* BombKitVideoModel.m in Sources */,
 				0EFE6FCA1CBDEE8700D5D26D /* BombKitConstant.m in Sources */,
+				0EE770861CBF8BD2007314D9 /* BombKitAccessoryModel.m in Sources */,
+				0EE7713E1CBF8D02007314D9 /* BombKitVideoShowModel.m in Sources */,
+				0EE770E61CBF8C81007314D9 /* BombKitPlatformModel.m in Sources */,
+				0EE7707A1CBF7DB7007314D9 /* BombBaseModel.m in Sources */,
+				0EE7708E1CBF8BDD007314D9 /* BombKitCharacterModel.m in Sources */,
+				0EE770961CBF8BE8007314D9 /* BombKitChatModel.m in Sources */,
+				0EE770EE1CBF8C8D007314D9 /* BombKitPromoModel.m in Sources */,
 				0E279E951CBB5C9700F2582A /* NSError+BombKit.m in Sources */,
+				0EE770FE1CBF8CA9007314D9 /* BombKitRegionModel.m in Sources */,
+				0EE770CE1CBF8C5F007314D9 /* BombKitLocationModel.m in Sources */,
+				0EE770F61CBF8C99007314D9 /* BombKitRatingBoardModel.m in Sources */,
+				0EE770D61CBF8C68007314D9 /* BombKitObjectModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

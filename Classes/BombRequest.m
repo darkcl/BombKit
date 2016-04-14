@@ -9,10 +9,13 @@
 #import "BombRequest.h"
 
 #import "NSError+BombKit.h"
+#import "BombKitModelFactory.h"
 
 @interface BombRequest() {
     NSURLRequest *apiRequest;
     NSError *builderError;
+    
+    NSString *resourceType;
 }
 
 @end
@@ -23,6 +26,7 @@
     if (self = [super init]) {
         apiRequest = builder.request;
         builderError = builder.buildError;
+        resourceType = builder.resource;
     }
     return self;
 }
@@ -63,7 +67,8 @@
                                               
                                           }
                                           
-                                          complete(responseDict);
+                                          complete([BombKitModelFactory modelForResourceTag:resourceType
+                                                                               withResponse:responseDict]);
                                       }];
         
         [task resume];
