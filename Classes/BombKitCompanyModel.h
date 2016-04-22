@@ -9,17 +9,15 @@
 #import "BombBaseModel.h"
 #import "BombKitConstant.h"
 
-@interface BombKitCompanyModel : BombBaseModel
-
 /*
- abbreviation	Abbreviation of the company.
- aliases	List of aliases the company is known by. A \n (newline) seperates each alias.
- characters	Characters related to the company.
- concepts	Concepts related to the company.
- date_founded	Date the company was founded.
- developed_games	Games the company has developed.
- developer_releases	Releases the company has developed.
- distributor_releases	Releases the company has distributed.
+ abbreviation
+ aliases
+ characters
+ concepts
+ date_founded
+ developed_games
+ developer_releases
+ distributor_releases
  location_address	Street address of the company.
  location_city	City the company resides in.
  location_country	Country the company resides in.
@@ -35,5 +33,45 @@
  publisher_releases	Releases the company has published.
  website	URL to the company website.
  */
+
+@interface BombKitCompanyModel : BombBaseModel
+
+
+/**
+ * Abbreviation of the company.
+ */
+@property (nonatomic, strong) NSString *abbreviation;
+
+/**
+ * List of aliases the company is known by. A \n (newline) seperates each alias.
+ */
+@property (nonatomic, strong) NSString *aliases;
+
+/**
+ * Characters related to the company.
+ */
+@property (nonatomic, strong) NSString *characters;
+
+/**
+ * Concepts related to the company.
+ */
+@property (nonatomic, strong) NSString *concepts;
+
+/**
+ * Date the company was founded.
+ */
+@property (nonatomic, strong) NSString *dateFounded;
+
+/**
+ * Games the company has developed.
+ */
+@property (nonatomic, strong) NSString *developedGames;
+
+/**
+ * Releases the company has developed.
+ */
+@property (nonatomic, strong) NSString *distributorReleases;
+
+
 
 @end
