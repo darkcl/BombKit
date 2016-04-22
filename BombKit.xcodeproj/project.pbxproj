@@ -32,6 +32,18 @@
 		0E279E931CBB5C9700F2582A /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */; };
 		0E279E941CBB5C9700F2582A /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */; };
 		0E279E951CBB5C9700F2582A /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */; };
+		0E9788231CC9D7C600C5CD0F /* BombBaseModel+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9788211CC9D7C600C5CD0F /* BombBaseModel+Private.h */; };
+		0E9788241CC9D7C600C5CD0F /* BombBaseModel+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9788211CC9D7C600C5CD0F /* BombBaseModel+Private.h */; };
+		0E9788251CC9D7C600C5CD0F /* BombBaseModel+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9788211CC9D7C600C5CD0F /* BombBaseModel+Private.h */; };
+		0E9788261CC9D7C600C5CD0F /* BombBaseModel+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9788221CC9D7C600C5CD0F /* BombBaseModel+Private.m */; };
+		0E9788271CC9D7C600C5CD0F /* BombBaseModel+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9788221CC9D7C600C5CD0F /* BombBaseModel+Private.m */; };
+		0E9788281CC9D7C600C5CD0F /* BombBaseModel+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9788221CC9D7C600C5CD0F /* BombBaseModel+Private.m */; };
+		0E97882B1CC9DB6200C5CD0F /* BombKitImageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9788291CC9DB6200C5CD0F /* BombKitImageModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E97882C1CC9DB6200C5CD0F /* BombKitImageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9788291CC9DB6200C5CD0F /* BombKitImageModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E97882D1CC9DB6200C5CD0F /* BombKitImageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9788291CC9DB6200C5CD0F /* BombKitImageModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E97882E1CC9DB6200C5CD0F /* BombKitImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97882A1CC9DB6200C5CD0F /* BombKitImageModel.m */; };
+		0E97882F1CC9DB6200C5CD0F /* BombKitImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97882A1CC9DB6200C5CD0F /* BombKitImageModel.m */; };
+		0E9788301CC9DB6200C5CD0F /* BombKitImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97882A1CC9DB6200C5CD0F /* BombKitImageModel.m */; };
 		0EE770751CBF7DB7007314D9 /* BombBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770731CBF7DB7007314D9 /* BombBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EE770761CBF7DB7007314D9 /* BombBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770731CBF7DB7007314D9 /* BombBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EE770771CBF7DB7007314D9 /* BombBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE770731CBF7DB7007314D9 /* BombBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -246,6 +258,10 @@
 		0E279E871CBB564200F2582A /* BombRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombRequestBuilder.m; sourceTree = "<group>"; };
 		0E279E8E1CBB5C9700F2582A /* NSError+BombKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+BombKit.h"; sourceTree = "<group>"; };
 		0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+BombKit.m"; sourceTree = "<group>"; };
+		0E9788211CC9D7C600C5CD0F /* BombBaseModel+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BombBaseModel+Private.h"; sourceTree = "<group>"; };
+		0E9788221CC9D7C600C5CD0F /* BombBaseModel+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BombBaseModel+Private.m"; sourceTree = "<group>"; };
+		0E9788291CC9DB6200C5CD0F /* BombKitImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitImageModel.h; sourceTree = "<group>"; };
+		0E97882A1CC9DB6200C5CD0F /* BombKitImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitImageModel.m; sourceTree = "<group>"; };
 		0EE770731CBF7DB7007314D9 /* BombBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombBaseModel.h; sourceTree = "<group>"; };
 		0EE770741CBF7DB7007314D9 /* BombBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombBaseModel.m; sourceTree = "<group>"; };
 		0EE7707B1CBF8226007314D9 /* BombKitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitModel.h; sourceTree = "<group>"; };
@@ -514,6 +530,10 @@
 				0EE771301CBF8CF6007314D9 /* BombKitVideoTypeModel.m */,
 				0EE771371CBF8D02007314D9 /* BombKitVideoShowModel.h */,
 				0EE771381CBF8D02007314D9 /* BombKitVideoShowModel.m */,
+				0E9788211CC9D7C600C5CD0F /* BombBaseModel+Private.h */,
+				0E9788221CC9D7C600C5CD0F /* BombBaseModel+Private.m */,
+				0E9788291CC9DB6200C5CD0F /* BombKitImageModel.h */,
+				0E97882A1CC9DB6200C5CD0F /* BombKitImageModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -553,6 +573,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EE771391CBF8D02007314D9 /* BombKitVideoShowModel.h in Headers */,
+				0E97882B1CC9DB6200C5CD0F /* BombKitImageModel.h in Headers */,
 				0EE771211CBF8CDF007314D9 /* BombKitUserReviewModel.h in Headers */,
 				0EE771091CBF8CC1007314D9 /* BombKitReviewModel.h in Headers */,
 				0EE770891CBF8BDD007314D9 /* BombKitCharacterModel.h in Headers */,
@@ -575,6 +596,7 @@
 				0EE770F91CBF8CA9007314D9 /* BombKitRegionModel.h in Headers */,
 				0EE770E11CBF8C81007314D9 /* BombKitPlatformModel.h in Headers */,
 				0EE770D91CBF8C74007314D9 /* BombKitPersonModel.h in Headers */,
+				0E9788231CC9D7C600C5CD0F /* BombBaseModel+Private.h in Headers */,
 				0E279E1D1CBB52E900F2582A /* BombKit.h in Headers */,
 				0EE7707C1CBF8226007314D9 /* BombKitModel.h in Headers */,
 				0EE771291CBF8CEA007314D9 /* BombKitVideoModel.h in Headers */,
@@ -592,6 +614,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EE7713A1CBF8D02007314D9 /* BombKitVideoShowModel.h in Headers */,
+				0E97882C1CC9DB6200C5CD0F /* BombKitImageModel.h in Headers */,
 				0EE771221CBF8CDF007314D9 /* BombKitUserReviewModel.h in Headers */,
 				0EE7710A1CBF8CC1007314D9 /* BombKitReviewModel.h in Headers */,
 				0EE7708A1CBF8BDD007314D9 /* BombKitCharacterModel.h in Headers */,
@@ -614,6 +637,7 @@
 				0EE770FA1CBF8CA9007314D9 /* BombKitRegionModel.h in Headers */,
 				0EE770E21CBF8C81007314D9 /* BombKitPlatformModel.h in Headers */,
 				0EE770DA1CBF8C74007314D9 /* BombKitPersonModel.h in Headers */,
+				0E9788241CC9D7C600C5CD0F /* BombBaseModel+Private.h in Headers */,
 				748E3BD51CBD38C600133052 /* BombKit.h in Headers */,
 				0EE7707D1CBF8226007314D9 /* BombKitModel.h in Headers */,
 				0EE7712A1CBF8CEA007314D9 /* BombKitVideoModel.h in Headers */,
@@ -631,6 +655,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EE7713B1CBF8D02007314D9 /* BombKitVideoShowModel.h in Headers */,
+				0E97882D1CC9DB6200C5CD0F /* BombKitImageModel.h in Headers */,
 				0EE771231CBF8CDF007314D9 /* BombKitUserReviewModel.h in Headers */,
 				0EE7710B1CBF8CC1007314D9 /* BombKitReviewModel.h in Headers */,
 				0EE7708B1CBF8BDD007314D9 /* BombKitCharacterModel.h in Headers */,
@@ -653,6 +678,7 @@
 				0EE770FB1CBF8CA9007314D9 /* BombKitRegionModel.h in Headers */,
 				0EE770E31CBF8C81007314D9 /* BombKitPlatformModel.h in Headers */,
 				0EE770DB1CBF8C74007314D9 /* BombKitPersonModel.h in Headers */,
+				0E9788251CC9D7C600C5CD0F /* BombBaseModel+Private.h in Headers */,
 				748E3BD61CBD38C700133052 /* BombKit.h in Headers */,
 				0EE7707E1CBF8226007314D9 /* BombKitModel.h in Headers */,
 				0EE7712B1CBF8CEA007314D9 /* BombKitVideoModel.h in Headers */,
@@ -888,8 +914,10 @@
 				0EE7711C1CBF8CD5007314D9 /* BombKitTypesModel.m in Sources */,
 				0EE771341CBF8CF6007314D9 /* BombKitVideoTypeModel.m in Sources */,
 				0EE771481CBF9608007314D9 /* BombKitModelFactory.m in Sources */,
+				0E97882E1CC9DB6200C5CD0F /* BombKitImageModel.m in Sources */,
 				0EE770A41CBF8BFF007314D9 /* BombKitConceptModel.m in Sources */,
 				0EE770BC1CBF8C29007314D9 /* BombKitGameRatingModel.m in Sources */,
+				0E9788261CC9D7C600C5CD0F /* BombBaseModel+Private.m in Sources */,
 				0EE770DC1CBF8C74007314D9 /* BombKitPersonModel.m in Sources */,
 				0EE770B41CBF8C13007314D9 /* BombKitGameModel.m in Sources */,
 				0EE771141CBF8CCB007314D9 /* BombKitThemeModel.m in Sources */,
@@ -933,8 +961,10 @@
 				0EE7711D1CBF8CD5007314D9 /* BombKitTypesModel.m in Sources */,
 				0EE771351CBF8CF6007314D9 /* BombKitVideoTypeModel.m in Sources */,
 				0EE771491CBF9608007314D9 /* BombKitModelFactory.m in Sources */,
+				0E97882F1CC9DB6200C5CD0F /* BombKitImageModel.m in Sources */,
 				0EE770A51CBF8BFF007314D9 /* BombKitConceptModel.m in Sources */,
 				0EE770BD1CBF8C29007314D9 /* BombKitGameRatingModel.m in Sources */,
+				0E9788271CC9D7C600C5CD0F /* BombBaseModel+Private.m in Sources */,
 				0EE770DD1CBF8C74007314D9 /* BombKitPersonModel.m in Sources */,
 				0EE770B51CBF8C13007314D9 /* BombKitGameModel.m in Sources */,
 				0EE771151CBF8CCB007314D9 /* BombKitThemeModel.m in Sources */,
@@ -978,8 +1008,10 @@
 				0EE7711E1CBF8CD5007314D9 /* BombKitTypesModel.m in Sources */,
 				0EE771361CBF8CF6007314D9 /* BombKitVideoTypeModel.m in Sources */,
 				0EE7714A1CBF9608007314D9 /* BombKitModelFactory.m in Sources */,
+				0E9788301CC9DB6200C5CD0F /* BombKitImageModel.m in Sources */,
 				0EE770A61CBF8BFF007314D9 /* BombKitConceptModel.m in Sources */,
 				0EE770BE1CBF8C29007314D9 /* BombKitGameRatingModel.m in Sources */,
+				0E9788281CC9D7C600C5CD0F /* BombBaseModel+Private.m in Sources */,
 				0EE770DE1CBF8C74007314D9 /* BombKitPersonModel.m in Sources */,
 				0EE770B61CBF8C13007314D9 /* BombKitGameModel.m in Sources */,
 				0EE771161CBF8CCB007314D9 /* BombKitThemeModel.m in Sources */,

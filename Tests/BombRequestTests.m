@@ -142,14 +142,14 @@
     
     [[BombRequest requestWithAPIkey:@"6402935262fb3a5d65042267e7eb4ef24bc7727a"
                             builder:^(BombRequestBuilder *builder) {
-                                builder.resource = BombKitResourceGames;
+                                builder.resource = BombKitResourceAccessories;
                                 builder.limit = 10;
                             }] makeRequestWithCompletion:^(id response) {
                                 XCTAssertNotNil(response);
                                 XCTAssertTrue([response isKindOfClass:[NSArray class]], @"Should be NSArray class, %@", NSStringFromClass([response class]));
                                 NSArray *anArray = (NSArray *)response;
                                 for (id obj in anArray) {
-                                    XCTAssertTrue([obj isKindOfClass:[BombKitGameModel class]], @"Should be BombKitGameModel class, %@", NSStringFromClass([obj class]));
+                                    XCTAssertTrue([obj isKindOfClass:[BombKitAccessoryModel class]], @"Should be BombKitAccessoryModel class, %@", NSStringFromClass([obj class]));
                                 }
                                 
                                 [expectation fulfill];
