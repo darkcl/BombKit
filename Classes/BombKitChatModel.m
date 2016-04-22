@@ -7,6 +7,7 @@
 //
 
 #import "BombKitChatModel.h"
+#import "BombBaseModel+Private.h"
 
 @implementation BombKitChatModel
 
@@ -16,8 +17,10 @@
 }
 
 - (instancetype)initWithDictionary:(NSDictionary *)info{
-    if (self = [super init]) {
-        
+    if (self = [super initWithDictionary:info]) {
+        _channelName = [self objectToString:info[@"channel_name"]];
+        _password = [self objectToString:info[@"password"]];
+        _title = [self objectToString:info[@"title"]];
     }
     return self;
 }
