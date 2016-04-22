@@ -6,7 +6,8 @@
 //  Copyright © 2016 darkcl. All rights reserved.
 //
 
-#import <BombKit/BombKit.h>
+#import "BombBaseModel.h"
+#import "BombKitConstant.h"
 
 @interface BombKitFranchiseModel : BombBaseModel
 

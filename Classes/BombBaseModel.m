@@ -7,6 +7,9 @@
 //
 
 #import "BombBaseModel.h"
+#import "BombBaseModel+Private.h"
+
+#import "BombKitImageModel.h"
 
 @interface BombBaseModel()
 
@@ -46,10 +49,16 @@
 }
 
 - (instancetype)initWithDictionary:(NSDictionary *)info{
-    [NSException raise:NSInternalInconsistencyException
-                format:@"You have not implemented %@ in %@", NSStringFromSelector(_cmd), NSStringFromClass([self class])];
     if (self = [super init]) {
-        
+        _apiDetailUrl = [self objectToString:info[@"api_detail_url"]];
+        _dateAdded = [self objectToString:info[@"date_added"]];
+        _dateLastUpdated = [self objectToString:info[@"date_last_updated"]];
+        _resourceId = [self objectToString:info[@"id"]];
+        _siteDetailUrl = [self objectToString:info[@"site_detail_url"]];
+        _resourceDescription = [self objectToString:info[@"description"]];
+        _deck = [self objectToString:info[@"deck"]];
+        _name = [self objectToString:info[@"name"]];
+        _image = [[BombKitImageModel alloc] initWithDictionary:info[@"image"]];
     }
     return self;
 }

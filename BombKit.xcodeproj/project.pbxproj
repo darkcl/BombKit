@@ -253,67 +253,67 @@
 		0E279E711CBB543400F2582A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E279E7A1CBB54E500F2582A /* BombRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombRequest.h; sourceTree = "<group>"; };
 		0E279E7B1CBB54E500F2582A /* BombRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombRequest.m; sourceTree = "<group>"; };
-		0E279E821CBB552200F2582A /* BombRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombRequestTests.m; sourceTree = "<group>"; };
+		0E279E821CBB552200F2582A /* BombRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BombRequestTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		0E279E861CBB564200F2582A /* BombRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombRequestBuilder.h; sourceTree = "<group>"; };
 		0E279E871CBB564200F2582A /* BombRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombRequestBuilder.m; sourceTree = "<group>"; };
 		0E279E8E1CBB5C9700F2582A /* NSError+BombKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+BombKit.h"; sourceTree = "<group>"; };
 		0E279E8F1CBB5C9700F2582A /* NSError+BombKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+BombKit.m"; sourceTree = "<group>"; };
-		0E9788211CC9D7C600C5CD0F /* BombBaseModel+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BombBaseModel+Private.h"; sourceTree = "<group>"; };
+		0E9788211CC9D7C600C5CD0F /* BombBaseModel+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "BombBaseModel+Private.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0E9788221CC9D7C600C5CD0F /* BombBaseModel+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BombBaseModel+Private.m"; sourceTree = "<group>"; };
-		0E9788291CC9DB6200C5CD0F /* BombKitImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitImageModel.h; sourceTree = "<group>"; };
+		0E9788291CC9DB6200C5CD0F /* BombKitImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitImageModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0E97882A1CC9DB6200C5CD0F /* BombKitImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitImageModel.m; sourceTree = "<group>"; };
 		0EE770731CBF7DB7007314D9 /* BombBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombBaseModel.h; sourceTree = "<group>"; };
 		0EE770741CBF7DB7007314D9 /* BombBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombBaseModel.m; sourceTree = "<group>"; };
 		0EE7707B1CBF8226007314D9 /* BombKitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitModel.h; sourceTree = "<group>"; };
 		0EE7707F1CBF8BD2007314D9 /* BombKitAccessoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitAccessoryModel.h; sourceTree = "<group>"; };
 		0EE770801CBF8BD2007314D9 /* BombKitAccessoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitAccessoryModel.m; sourceTree = "<group>"; };
-		0EE770871CBF8BDD007314D9 /* BombKitCharacterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitCharacterModel.h; sourceTree = "<group>"; };
+		0EE770871CBF8BDD007314D9 /* BombKitCharacterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitCharacterModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770881CBF8BDD007314D9 /* BombKitCharacterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitCharacterModel.m; sourceTree = "<group>"; };
-		0EE7708F1CBF8BE8007314D9 /* BombKitChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitChatModel.h; sourceTree = "<group>"; };
+		0EE7708F1CBF8BE8007314D9 /* BombKitChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitChatModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770901CBF8BE8007314D9 /* BombKitChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitChatModel.m; sourceTree = "<group>"; };
-		0EE770971CBF8BF4007314D9 /* BombKitCompanyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitCompanyModel.h; sourceTree = "<group>"; };
+		0EE770971CBF8BF4007314D9 /* BombKitCompanyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitCompanyModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770981CBF8BF4007314D9 /* BombKitCompanyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitCompanyModel.m; sourceTree = "<group>"; };
-		0EE7709F1CBF8BFF007314D9 /* BombKitConceptModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitConceptModel.h; sourceTree = "<group>"; };
+		0EE7709F1CBF8BFF007314D9 /* BombKitConceptModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitConceptModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770A01CBF8BFF007314D9 /* BombKitConceptModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitConceptModel.m; sourceTree = "<group>"; };
-		0EE770A71CBF8C09007314D9 /* BombKitFranchiseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitFranchiseModel.h; sourceTree = "<group>"; };
+		0EE770A71CBF8C09007314D9 /* BombKitFranchiseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitFranchiseModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770A81CBF8C09007314D9 /* BombKitFranchiseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitFranchiseModel.m; sourceTree = "<group>"; };
-		0EE770AF1CBF8C13007314D9 /* BombKitGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitGameModel.h; sourceTree = "<group>"; };
+		0EE770AF1CBF8C13007314D9 /* BombKitGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitGameModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770B01CBF8C13007314D9 /* BombKitGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitGameModel.m; sourceTree = "<group>"; };
-		0EE770B71CBF8C29007314D9 /* BombKitGameRatingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitGameRatingModel.h; sourceTree = "<group>"; };
+		0EE770B71CBF8C29007314D9 /* BombKitGameRatingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitGameRatingModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770B81CBF8C29007314D9 /* BombKitGameRatingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitGameRatingModel.m; sourceTree = "<group>"; };
-		0EE770BF1CBF8C54007314D9 /* BombKitGenreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitGenreModel.h; sourceTree = "<group>"; };
+		0EE770BF1CBF8C54007314D9 /* BombKitGenreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitGenreModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770C01CBF8C54007314D9 /* BombKitGenreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitGenreModel.m; sourceTree = "<group>"; };
-		0EE770C71CBF8C5F007314D9 /* BombKitLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitLocationModel.h; sourceTree = "<group>"; };
+		0EE770C71CBF8C5F007314D9 /* BombKitLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitLocationModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770C81CBF8C5F007314D9 /* BombKitLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitLocationModel.m; sourceTree = "<group>"; };
-		0EE770CF1CBF8C68007314D9 /* BombKitObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitObjectModel.h; sourceTree = "<group>"; };
+		0EE770CF1CBF8C68007314D9 /* BombKitObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitObjectModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770D01CBF8C68007314D9 /* BombKitObjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitObjectModel.m; sourceTree = "<group>"; };
-		0EE770D71CBF8C74007314D9 /* BombKitPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitPersonModel.h; sourceTree = "<group>"; };
+		0EE770D71CBF8C74007314D9 /* BombKitPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitPersonModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770D81CBF8C74007314D9 /* BombKitPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitPersonModel.m; sourceTree = "<group>"; };
-		0EE770DF1CBF8C81007314D9 /* BombKitPlatformModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitPlatformModel.h; sourceTree = "<group>"; };
+		0EE770DF1CBF8C81007314D9 /* BombKitPlatformModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitPlatformModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770E01CBF8C81007314D9 /* BombKitPlatformModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitPlatformModel.m; sourceTree = "<group>"; };
-		0EE770E71CBF8C8D007314D9 /* BombKitPromoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitPromoModel.h; sourceTree = "<group>"; };
+		0EE770E71CBF8C8D007314D9 /* BombKitPromoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitPromoModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770E81CBF8C8D007314D9 /* BombKitPromoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitPromoModel.m; sourceTree = "<group>"; };
-		0EE770EF1CBF8C99007314D9 /* BombKitRatingBoardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitRatingBoardModel.h; sourceTree = "<group>"; };
+		0EE770EF1CBF8C99007314D9 /* BombKitRatingBoardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitRatingBoardModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770F01CBF8C99007314D9 /* BombKitRatingBoardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitRatingBoardModel.m; sourceTree = "<group>"; };
-		0EE770F71CBF8CA9007314D9 /* BombKitRegionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitRegionModel.h; sourceTree = "<group>"; };
+		0EE770F71CBF8CA9007314D9 /* BombKitRegionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitRegionModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE770F81CBF8CA9007314D9 /* BombKitRegionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitRegionModel.m; sourceTree = "<group>"; };
-		0EE770FF1CBF8CB8007314D9 /* BombKitReleaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitReleaseModel.h; sourceTree = "<group>"; };
+		0EE770FF1CBF8CB8007314D9 /* BombKitReleaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitReleaseModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE771001CBF8CB8007314D9 /* BombKitReleaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitReleaseModel.m; sourceTree = "<group>"; };
-		0EE771071CBF8CC1007314D9 /* BombKitReviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitReviewModel.h; sourceTree = "<group>"; };
+		0EE771071CBF8CC1007314D9 /* BombKitReviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitReviewModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE771081CBF8CC1007314D9 /* BombKitReviewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitReviewModel.m; sourceTree = "<group>"; };
-		0EE7710F1CBF8CCB007314D9 /* BombKitThemeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitThemeModel.h; sourceTree = "<group>"; };
+		0EE7710F1CBF8CCB007314D9 /* BombKitThemeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitThemeModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE771101CBF8CCB007314D9 /* BombKitThemeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitThemeModel.m; sourceTree = "<group>"; };
-		0EE771171CBF8CD5007314D9 /* BombKitTypesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitTypesModel.h; sourceTree = "<group>"; };
+		0EE771171CBF8CD5007314D9 /* BombKitTypesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitTypesModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE771181CBF8CD5007314D9 /* BombKitTypesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitTypesModel.m; sourceTree = "<group>"; };
-		0EE7711F1CBF8CDF007314D9 /* BombKitUserReviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitUserReviewModel.h; sourceTree = "<group>"; };
+		0EE7711F1CBF8CDF007314D9 /* BombKitUserReviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitUserReviewModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE771201CBF8CDF007314D9 /* BombKitUserReviewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitUserReviewModel.m; sourceTree = "<group>"; };
-		0EE771271CBF8CEA007314D9 /* BombKitVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitVideoModel.h; sourceTree = "<group>"; };
+		0EE771271CBF8CEA007314D9 /* BombKitVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitVideoModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE771281CBF8CEA007314D9 /* BombKitVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitVideoModel.m; sourceTree = "<group>"; };
-		0EE7712F1CBF8CF6007314D9 /* BombKitVideoTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitVideoTypeModel.h; sourceTree = "<group>"; };
+		0EE7712F1CBF8CF6007314D9 /* BombKitVideoTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitVideoTypeModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE771301CBF8CF6007314D9 /* BombKitVideoTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitVideoTypeModel.m; sourceTree = "<group>"; };
-		0EE771371CBF8D02007314D9 /* BombKitVideoShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitVideoShowModel.h; sourceTree = "<group>"; };
+		0EE771371CBF8D02007314D9 /* BombKitVideoShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitVideoShowModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE771381CBF8D02007314D9 /* BombKitVideoShowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitVideoShowModel.m; sourceTree = "<group>"; };
-		0EE771431CBF9608007314D9 /* BombKitModelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitModelFactory.h; sourceTree = "<group>"; };
+		0EE771431CBF9608007314D9 /* BombKitModelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BombKitModelFactory.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0EE771441CBF9608007314D9 /* BombKitModelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitModelFactory.m; sourceTree = "<group>"; };
 		0EFE6FC31CBDEE8700D5D26D /* BombKitConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BombKitConstant.h; sourceTree = "<group>"; };
 		0EFE6FC41CBDEE8700D5D26D /* BombKitConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BombKitConstant.m; sourceTree = "<group>"; };
@@ -481,7 +481,6 @@
 			children = (
 				0EE770731CBF7DB7007314D9 /* BombBaseModel.h */,
 				0EE770741CBF7DB7007314D9 /* BombBaseModel.m */,
-				0EE7707B1CBF8226007314D9 /* BombKitModel.h */,
 				0EE7707F1CBF8BD2007314D9 /* BombKitAccessoryModel.h */,
 				0EE770801CBF8BD2007314D9 /* BombKitAccessoryModel.m */,
 				0EE770871CBF8BDD007314D9 /* BombKitCharacterModel.h */,
@@ -550,6 +549,7 @@
 		0EFE6FCC1CBF40E100D5D26D /* Constant */ = {
 			isa = PBXGroup;
 			children = (
+				0EE7707B1CBF8226007314D9 /* BombKitModel.h */,
 				0EFE6FC31CBDEE8700D5D26D /* BombKitConstant.h */,
 				0EFE6FC41CBDEE8700D5D26D /* BombKitConstant.m */,
 			);

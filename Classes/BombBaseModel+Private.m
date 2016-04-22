@@ -11,12 +11,12 @@
 @implementation BombBaseModel (Private)
 
 - (NSString *)objectToString:(id)obj{
-    if ([obj isKindOfClass:[NSString class]]) {
+    if (obj == nil || [obj isKindOfClass:[NSNull class]]){
+        return nil;
+    }else if ([obj isKindOfClass:[NSString class]]) {
         return obj;
     }else if ([obj respondsToSelector:@selector(stringValue)]) {
         return [obj stringValue];
-    }else if (obj == nil){
-        return nil;
     }else{
         return [NSString stringWithFormat:@"%@", obj];
     }
