@@ -15,6 +15,8 @@
         return obj;
     }else if ([obj respondsToSelector:@selector(stringValue)]) {
         return [obj stringValue];
+    }else if (obj == nil){
+        return nil;
     }else{
         return [NSString stringWithFormat:@"%@", obj];
     }
