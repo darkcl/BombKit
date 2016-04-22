@@ -10,4 +10,14 @@
 
 @interface BombKitChatModel : BombBaseModel
 
+/*
+ api_detail_url	URL pointing to the chat detail resource.
+ channel_name	Name of the video streaming channel associated with the chat.
+ deck	Brief summary of the chat.
+ image	Main image of the chat.
+ password	chat password.
+ site_detail_url	URL pointing to the chat on Giant Bomb.
+ title	Title of the chat.
+ */
+
 @end

@@ -10,4 +10,11 @@
 
 @interface BombKitThemeModel : BombBaseModel
 
+/*
+ api_detail_url	URL pointing to the theme detail resource.
+ id	Unique ID of the theme.
+ name	Name of the theme.
+ site_detail_url	URL pointing to the theme on Giant Bomb.
+ */
+
 @end

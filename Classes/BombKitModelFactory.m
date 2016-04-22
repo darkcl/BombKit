@@ -35,7 +35,21 @@
         NSString *resourceTag = [aClass resourceType];
         if ([resourceTag isEqualToString:resource]) {
             NSLog(@"%@", resourceTag);
-            return [[aClass alloc] initWithDictionary:info];
+            return [[aClass alloc] initWithDictionary:info[@"results"]];
+        }
+    }
+    
+    for (Class aClass in [[self factory] modelClasses]) {
+        NSString *resourceTag = [aClass listResourceType];
+        if ([resourceTag isEqualToString:resource]) {
+            NSLog(@"%@", resourceTag);
+            
+            NSMutableArray *result = [[NSMutableArray alloc] init];
+            for (NSDictionary *infoDict in info[@"results"]) {
+                [result addObject:[[aClass alloc] initWithDictionary:infoDict]];
+            }
+            
+            return result;
         }
     }
     

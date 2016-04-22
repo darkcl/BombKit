@@ -124,7 +124,34 @@
                                 builder.resourceId = @"3030-4725";
                             }] makeRequestWithCompletion:^(id response) {
                                 XCTAssertNotNil(response);
-                                XCTAssertTrue([response isKindOfClass:[BombKitGameModel class]], @"Should be BombKitAccessoryModel class, %@", NSStringFromClass([response class]));
+                                XCTAssertTrue([response isKindOfClass:[BombKitGameModel class]], @"Should be BombKitGameModel class, %@", NSStringFromClass([response class]));
+                                [expectation fulfill];
+                            } failure:^(NSError *err) {
+                                XCTFail(@"Should not fail with error %@", err);
+                                [expectation fulfill];
+                            }];
+    
+    [self waitForExpectationsWithTimeout:30
+                                 handler:^(NSError * _Nullable error) {
+                                     XCTAssertNil(error);
+                                 }];
+}
+
+- (void)testModelList {
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Model List"];
+    
+    [[BombRequest requestWithAPIkey:@"6402935262fb3a5d65042267e7eb4ef24bc7727a"
+                            builder:^(BombRequestBuilder *builder) {
+                                builder.resource = BombKitResourceAccessories;
+                                builder.limit = 10;
+                            }] makeRequestWithCompletion:^(id response) {
+                                XCTAssertNotNil(response);
+                                XCTAssertTrue([response isKindOfClass:[NSArray class]], @"Should be NSArray class, %@", NSStringFromClass([response class]));
+                                NSArray *anArray = (NSArray *)response;
+                                for (id obj in anArray) {
+                                    XCTAssertTrue([obj isKindOfClass:[BombKitAccessoryModel class]], @"Should be BombKitAccessoryModel class, %@", NSStringFromClass([obj class]));
+                                }
+                                
                                 [expectation fulfill];
                             } failure:^(NSError *err) {
                                 XCTFail(@"Should not fail with error %@", err);
