@@ -11,12 +11,4 @@
 
 @interface BombKitVideoShowModel : BombBaseModel
 
-/*
- api_detail_url	URL pointing to the video_show detail resource.
- deck	Brief summary of the video_show.
- id	Unique ID of the video_show.
- name	Name of the video_show.
- site_detail_url	URL pointing to the video_show on Giant Bomb.
- */
-
 @end

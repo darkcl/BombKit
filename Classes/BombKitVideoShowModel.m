@@ -16,7 +16,7 @@
 }
 
 - (instancetype)initWithDictionary:(NSDictionary *)info{
-    if (self = [super init]) {
+    if (self = [super initWithDictionary:info]) {
         
     }
     return self;
