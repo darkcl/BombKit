@@ -8,3 +8,4 @@ Giantbomb API wrapper, using builder pattern.
 - [x] Basic API Requests
 - [ ] Model All Responses
 - [ ] Documentation
+- [ ] Add Cocoapods Support
