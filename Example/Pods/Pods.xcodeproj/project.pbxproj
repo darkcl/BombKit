@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004CF8F5B8457B3334A7EC5D6A17E874 /* BombKitConceptModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0B84EA916DC8AA2037C6EFA0C0431 /* BombKitConceptModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		031FE3B508CB87BE5206C4201AF94321 /* BombKitImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7394549CA329035F635868DB415A7BAC /* BombKitImageModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0480A7D0A7845C2B781A803B5D568CB2 /* BombKitLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A199860F779BC2CCE5847F2DF82DCB16 /* BombKitLocationModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0646E2FB27E0F06610C5573B338E5724 /* BombKitModelFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EBDE691C6D9E5F5A3A631CBD6E2646 /* BombKitModelFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09877E122C9B59C5F21F06C486E6993E /* BombKitObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A4551AD9898DD3D164ED80EA815174 /* BombKitObjectModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0ACEBB9EB5502D6812955A90275D7155 /* BombKitGameRatingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAFD9C4A784D5EE788F32DA02439E33 /* BombKitGameRatingModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0E48940CA32CB75ACC7B7FDDAF525B76 /* BombBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8049E17CEA2B27EBD1383EFDC9C10B07 /* BombBaseModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0FA53907CD8A7EB21831421FCDDC1A64 /* BombKitReleaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DBD820E0B6DFB950B00E88B16E5BC0 /* BombKitReleaseModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		14251C0EFD8EA0E05035C55E117B62B1 /* BombKitRatingBoardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3375E188F8358D7FE550061AB677BF6F /* BombKitRatingBoardModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		14B86D6173D00F99A1D9F21EC45848BB /* BombKitAccessoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7B5EC89190FD6D18D42D627A62D73 /* BombKitAccessoryModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		197DDCDADC1BEF2A8D1347C7133FD773 /* BombKitModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E145F9B7FEF915FD5E54413DB4D2E89 /* BombKitModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1990212052B4519BA93A8FD01AFEA3A7 /* BombBaseModel+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 34504F809A29DE485530F40EC5612C6F /* BombBaseModel+Private.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2226F151C1E3EEAD12F2C8DB8663BE33 /* BombKitConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D3DD9579B14B2984366A00924549C0 /* BombKitConstant.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		247DD2C686B8BFFFF59DFAD809C9974A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2897C5D027275DBB70911655D56C4977 /* BombKitVideoShowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F210451D3BA7514C7FB060DB3EE9BBA /* BombKitVideoShowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29613DDAE2E4D71D2A4FF580D7B4149D /* BombKitReleaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEDEC80A3D7722508FC50ED9E3970EB /* BombKitReleaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E3A745F0D0647CBB884D35BD7CACB2A /* BombKitVideoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EBEBA991E9697BF6E17F3920389C3A /* BombKitVideoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3056236D2E04CB9990B80D0A41868AE1 /* BombKitVideoTypeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C04B7A881FFB82F089B0DE5F98C2B808 /* BombKitVideoTypeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39235F66D9515DA062AAEB567B4005EF /* BombBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CE12810B08308F087CD22D13E684F305 /* BombBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A480828EB47DA6D8545DD9358A5DFAC /* NSError+BombKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C045562C4BE7C4C4DD4D7305BAAD37A /* NSError+BombKit.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3CB7A64E4C183DB9155C42BDF69F2C9E /* BombKitCompanyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1BD34A2091A3A3B25B62CF979B69C3 /* BombKitCompanyModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4806EA2647CF81228AEFC0C4DE749781 /* BombKitPromoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F44262BDFC175616552950D6A801BA /* BombKitPromoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		498FED13928D7BE59B81D5595C89AA73 /* BombKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 146149314D7C2FD72629235FF9E191D6 /* BombKit-dummy.m */; };
+		51172A324094BDAEB3797FE1FBE904AD /* BombKitCharacterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D23F8668E3BDA2701CAD36292E9857 /* BombKitCharacterModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		543764E636FDAADA6BA5A00CCE92A892 /* BombKitLocationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B515646DC7C1F7E74129E44ED607B435 /* BombKitLocationModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54725169B4E5D4CF22942ADE25A5C532 /* BombKitReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE07701DDEB734C818E6B2D8921D82 /* BombKitReviewModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		57B2360DCE46BEA2184C6D843864E3C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5B3320F7472015961AF15BA29BF64E1B /* BombKitPlatformModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 433091CA38805468C00712AF4A213516 /* BombKitPlatformModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CA69C7F0269EE5F179F57A5EFBCE1C2 /* BombKitFranchiseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3B0E4F6681F83E19F0E65E56B52D84 /* BombKitFranchiseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CE8C7B96CA76289A72D803702191975 /* BombRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = B771D3251285A19344ED1A14A32FA29D /* BombRequestBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		672DAD5369A01FFC8FE83BE2FB1E0AF6 /* Pods-BombKit-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3563C66BD98B96AC20833DD30DCDFAD8 /* Pods-BombKit-Example-dummy.m */; };
+		679B3FD187ECE185E5FB8EE1D483A67B /* BombKitModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E54FF4EBD5747EBF1A1D463CE8D6220 /* BombKitModelFactory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		69DC2CFB84DCECEA06B69F97D59C64EB /* BombKitFranchiseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 809E54DD1F12BCDD866A9A2AE1C9DE29 /* BombKitFranchiseModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6C0EDE1B4235CF2099975E166A038A1F /* BombRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 820C3A7B53FEADA0B69178665A1B1CEE /* BombRequestBuilder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6C1353D1B0B417CB110939D967899837 /* BombKitPersonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7231BA82E0E5C3586A93DED4F84919ED /* BombKitPersonModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D1D665B2EB396FE5FF8884BED4D44E6 /* BombKitRegionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E7A823B9A9EF49A3111CA6C1C3E2BF /* BombKitRegionModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7B507E4E0024B52290A86F0DB388904A /* BombKitImageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 744B6DF1B19E05B02F9F15B1D8C9B0C6 /* BombKitImageModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BCACCAB3090FDDACEA86BDAC9C4F492 /* BombKitConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC3A03CFD51F54539130A00BE3DB07B /* BombKitConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D5158EED89C1D4F05BEB27908279546 /* BombKitCharacterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EB6457829F304389817E2A7259AD10E9 /* BombKitCharacterModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		803186AD8AE8EA82AD7DDA780496593C /* Pods-BombKit-ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D103A443C539C525EEA78F0FFC9C21 /* Pods-BombKit-ExampleTests-dummy.m */; };
+		812C72E47C1B97531A97E76330D5D4DA /* BombKitChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEBBB7219DCDC66F11EF4D03D9FBB20 /* BombKitChatModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		82545500DE2AB032DDA4D26CF865A196 /* BombKitChatModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 77EA5A5C2F088DD4066094AF63C9BCB6 /* BombKitChatModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8450C96B6442F21B70BD4F859DAD2E98 /* BombKitThemeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0606D9A5CCCD408B2CA5F38BA229ED /* BombKitThemeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87343E46CBB9E21A7520C8CC3B10F230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		88DAAC215D6400AEFAEDBF0347114E70 /* BombKitGenreModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 720A5C38661A030ECBACFDC9855DF734 /* BombKitGenreModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		893EB9D5AD6B34AE9A49CB2C98FCBA29 /* BombKitGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8358312772DB4B4D230B03A31F15DFC9 /* BombKitGameModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8C2BAB0849111150045817B7244F91E8 /* BombKitGameRatingModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B71395038A1B2F2175C0EBE02937812A /* BombKitGameRatingModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CAF44857E6D578792898753D5885D9E /* BombKitPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5FCA3B750D2575CF8A38170307D7E /* BombKitPersonModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8D443363855C902C0BD50BE4353090C4 /* BombKitRegionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E15C8D343B989A373D6BBFD2E2D8CB2A /* BombKitRegionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		915A01B20E76BC930A6A3EAF0F947541 /* NSError+BombKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 250AD7A3D3DCDB7041393306549917DF /* NSError+BombKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC47FE4CB89B0292FF7481BA8401B17 /* BombKitThemeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86328D30BC562C1C209BB086DCCF50B2 /* BombKitThemeModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B1E279A8F8F6B909C666187B45507411 /* BombBaseModel+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD127A1230BDA16ECC44754BC9F1989 /* BombBaseModel+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2B21FAC6BC053CC122344B687A3E266 /* BombKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 74942F0BE1EB58C6E8ED5146587B0832 /* BombKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39EB1C3F248F7E0F0A906CC4BFD9051 /* BombRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F98A65E171A71429E714C116FA745505 /* BombRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7603974C6FD381DA3ECEACCCF8B9D3B /* BombKitUserReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD60323F627A299F7C0E0C86847E0F /* BombKitUserReviewModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BA3C1CC65D3FE251D704751135FF3F35 /* BombKitUserReviewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = DE89988DDC9E0EEBDA64200020FA6DD9 /* BombKitUserReviewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C124F13CFA9E2471AED45CE1EF222932 /* BombKitTypesModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A26180426326585FB16AC057DA50B4EA /* BombKitTypesModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D33902F974FB6E5F4EF73698EC58D303 /* BombKitGameModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7701BE8153CA7526CBBE32FF2F587E /* BombKitGameModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D38726FC296B5A42D11DA9CD8AE238E0 /* BombKitTypesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 831738FDA7BD1B10E535EE4F5BCFAFA6 /* BombKitTypesModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D6618121A845CA7AC6E6D228F44CA7F3 /* BombKitPromoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC69E73F2A7FCC0CAD18FB96F4B4FC48 /* BombKitPromoModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DA6C523D948CD55C4D0FEBD5405E3F18 /* BombKitObjectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE90FDF949CCAD85C785DBCA6F199B3 /* BombKitObjectModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB75C681C92ACE3A3942817AEEA26E92 /* BombRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC8AE26A62DA0B2A8AD2CD35D89051B /* BombRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DEFC106E458129A84D8080074B243485 /* BombKitRatingBoardModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E05D98F0023D2C1CA89BA5F6C52452 /* BombKitRatingBoardModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0EF7E2DB20D76B4C6B57CF8979EB9A0 /* BombKitVideoShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B923728BD6EFDC784613D8D18575B42 /* BombKitVideoShowModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E1132C6C5E92F2CD921324FC7E0F1A2E /* BombKitVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BB2702207407B373625EBB4C58991A /* BombKitVideoModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E7F66893958A8A1866CB05BB2B9B66A2 /* BombKitAccessoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F26ED33A945FADC1BC3716982C5C0FEF /* BombKitAccessoryModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB08AFABD7D385D10E9EACF2439247D2 /* BombKitPlatformModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73757C9468AEAA797A9EC76CB1E92DF3 /* BombKitPlatformModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EFF9732E19AA1BDB3376DD1A81E7459B /* BombKitGenreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 745EFBB4FB5B6BF3FD5550D8A5025DA0 /* BombKitGenreModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F38753624E164B9D469B41C49F6D26B8 /* BombKitConceptModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BB90201D0E970A52D4B8A3F80029F690 /* BombKitConceptModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F42DF166AD0414958D68B1FFC5C492B3 /* BombKitReviewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A62147F2E467D8585131F79A76F97DAC /* BombKitReviewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8A056DA810213CE35A865EE91ACD38B /* BombKitVideoTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E33225EDC859C9244F6595DE3A9285 /* BombKitVideoTypeModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FA6AE09E79749CE8368A6EF186AF8CF8 /* BombKitCompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA2C5BE37D38571F358690C5217E858 /* BombKitCompanyModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D5EC630F32E9C39F8F3754E967FAEBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F149C73D512A7AF8E6D672C35B03AE28;
+			remoteInfo = BombKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05EDBABB38F05FB70CC08FCC74D06E0A /* libBombKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBombKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA2C5BE37D38571F358690C5217E858 /* BombKitCompanyModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitCompanyModel.m; sourceTree = "<group>"; };
+		11E05D98F0023D2C1CA89BA5F6C52452 /* BombKitRatingBoardModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitRatingBoardModel.h; sourceTree = "<group>"; };
+		146149314D7C2FD72629235FF9E191D6 /* BombKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BombKit-dummy.m"; sourceTree = "<group>"; };
+		1AD127A1230BDA16ECC44754BC9F1989 /* BombBaseModel+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BombBaseModel+Private.h"; sourceTree = "<group>"; };
+		1C0606D9A5CCCD408B2CA5F38BA229ED /* BombKitThemeModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitThemeModel.h; sourceTree = "<group>"; };
+		1E145F9B7FEF915FD5E54413DB4D2E89 /* BombKitModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitModel.h; sourceTree = "<group>"; };
+		22DC1D1A6AD8A74BA0997618DA838DBC /* Pods-BombKit-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BombKit-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		23F44262BDFC175616552950D6A801BA /* BombKitPromoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitPromoModel.h; sourceTree = "<group>"; };
+		24DBD820E0B6DFB950B00E88B16E5BC0 /* BombKitReleaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitReleaseModel.m; sourceTree = "<group>"; };
+		250AD7A3D3DCDB7041393306549917DF /* NSError+BombKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+BombKit.h"; sourceTree = "<group>"; };
+		288CDF5C8BBDD37A919812F1D469F6BC /* Pods-BombKit-ExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BombKit-ExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		3375E188F8358D7FE550061AB677BF6F /* BombKitRatingBoardModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitRatingBoardModel.m; sourceTree = "<group>"; };
+		34504F809A29DE485530F40EC5612C6F /* BombBaseModel+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BombBaseModel+Private.m"; sourceTree = "<group>"; };
+		3563C66BD98B96AC20833DD30DCDFAD8 /* Pods-BombKit-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BombKit-Example-dummy.m"; sourceTree = "<group>"; };
+		39D3DD9579B14B2984366A00924549C0 /* BombKitConstant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitConstant.m; sourceTree = "<group>"; };
+		3D3B0E4F6681F83E19F0E65E56B52D84 /* BombKitFranchiseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitFranchiseModel.h; sourceTree = "<group>"; };
+		3DC3A03CFD51F54539130A00BE3DB07B /* BombKitConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitConstant.h; sourceTree = "<group>"; };
+		433091CA38805468C00712AF4A213516 /* BombKitPlatformModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitPlatformModel.h; sourceTree = "<group>"; };
+		4B923728BD6EFDC784613D8D18575B42 /* BombKitVideoShowModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitVideoShowModel.m; sourceTree = "<group>"; };
+		51DE79EC05A6853CFC91832387C83952 /* Pods-BombKit-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BombKit-Example-resources.sh"; sourceTree = "<group>"; };
+		53D23F8668E3BDA2701CAD36292E9857 /* BombKitCharacterModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitCharacterModel.m; sourceTree = "<group>"; };
+		555C921182B25151CA5C000E05EB48A4 /* Pods-BombKit-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BombKit-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55E33225EDC859C9244F6595DE3A9285 /* BombKitVideoTypeModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitVideoTypeModel.m; sourceTree = "<group>"; };
+		56FCC1A2D43314C0A889E59644544DFA /* libPods-BombKit-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BombKit-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EC181AA2839ECCC988DBDB1B49A336 /* Pods-BombKit-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BombKit-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		59CE07701DDEB734C818E6B2D8921D82 /* BombKitReviewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitReviewModel.m; sourceTree = "<group>"; };
+		5BEDEC80A3D7722508FC50ED9E3970EB /* BombKitReleaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitReleaseModel.h; sourceTree = "<group>"; };
+		5C045562C4BE7C4C4DD4D7305BAAD37A /* NSError+BombKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSError+BombKit.m"; sourceTree = "<group>"; };
+		5CDF1047425FF8C789C30E032AA31C8F /* Pods-BombKit-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BombKit-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DD5FCA3B750D2575CF8A38170307D7E /* BombKitPersonModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitPersonModel.m; sourceTree = "<group>"; };
+		689236FE3EC25775D8D154C305C93F16 /* Pods-BombKit-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BombKit-Example.release.xcconfig"; sourceTree = "<group>"; };
+		69EBDE691C6D9E5F5A3A631CBD6E2646 /* BombKitModelFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitModelFactory.h; sourceTree = "<group>"; };
+		6FC2F1969AF5B7A3ED3DAF8DE679BA07 /* Pods-BombKit-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BombKit-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FF0B84EA916DC8AA2037C6EFA0C0431 /* BombKitConceptModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitConceptModel.m; sourceTree = "<group>"; };
+		720A5C38661A030ECBACFDC9855DF734 /* BombKitGenreModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitGenreModel.h; sourceTree = "<group>"; };
+		7231BA82E0E5C3586A93DED4F84919ED /* BombKitPersonModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitPersonModel.h; sourceTree = "<group>"; };
+		73757C9468AEAA797A9EC76CB1E92DF3 /* BombKitPlatformModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitPlatformModel.m; sourceTree = "<group>"; };
+		7394549CA329035F635868DB415A7BAC /* BombKitImageModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitImageModel.m; sourceTree = "<group>"; };
+		744B6DF1B19E05B02F9F15B1D8C9B0C6 /* BombKitImageModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitImageModel.h; sourceTree = "<group>"; };
+		745EFBB4FB5B6BF3FD5550D8A5025DA0 /* BombKitGenreModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitGenreModel.m; sourceTree = "<group>"; };
+		74942F0BE1EB58C6E8ED5146587B0832 /* BombKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKit.h; sourceTree = "<group>"; };
+		74E7A823B9A9EF49A3111CA6C1C3E2BF /* BombKitRegionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitRegionModel.m; sourceTree = "<group>"; };
+		77EA5A5C2F088DD4066094AF63C9BCB6 /* BombKitChatModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitChatModel.h; sourceTree = "<group>"; };
+		7E54FF4EBD5747EBF1A1D463CE8D6220 /* BombKitModelFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitModelFactory.m; sourceTree = "<group>"; };
+		7F7701BE8153CA7526CBBE32FF2F587E /* BombKitGameModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitGameModel.h; sourceTree = "<group>"; };
+		8049E17CEA2B27EBD1383EFDC9C10B07 /* BombBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombBaseModel.m; sourceTree = "<group>"; };
+		809E54DD1F12BCDD866A9A2AE1C9DE29 /* BombKitFranchiseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitFranchiseModel.m; sourceTree = "<group>"; };
+		820C3A7B53FEADA0B69178665A1B1CEE /* BombRequestBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombRequestBuilder.m; sourceTree = "<group>"; };
+		831738FDA7BD1B10E535EE4F5BCFAFA6 /* BombKitTypesModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitTypesModel.m; sourceTree = "<group>"; };
+		8358312772DB4B4D230B03A31F15DFC9 /* BombKitGameModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitGameModel.m; sourceTree = "<group>"; };
+		86328D30BC562C1C209BB086DCCF50B2 /* BombKitThemeModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitThemeModel.m; sourceTree = "<group>"; };
+		8BCFCA0AB6E7FE4CBC6DB2952C37F980 /* Pods-BombKit-ExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BombKit-ExampleTests-resources.sh"; sourceTree = "<group>"; };
+		8F210451D3BA7514C7FB060DB3EE9BBA /* BombKitVideoShowModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitVideoShowModel.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96BB2702207407B373625EBB4C58991A /* BombKitVideoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitVideoModel.m; sourceTree = "<group>"; };
+		9F1BD34A2091A3A3B25B62CF979B69C3 /* BombKitCompanyModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitCompanyModel.h; sourceTree = "<group>"; };
+		A0D103A443C539C525EEA78F0FFC9C21 /* Pods-BombKit-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BombKit-ExampleTests-dummy.m"; sourceTree = "<group>"; };
+		A199860F779BC2CCE5847F2DF82DCB16 /* BombKitLocationModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitLocationModel.m; sourceTree = "<group>"; };
+		A26180426326585FB16AC057DA50B4EA /* BombKitTypesModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitTypesModel.h; sourceTree = "<group>"; };
+		A62147F2E467D8585131F79A76F97DAC /* BombKitReviewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitReviewModel.h; sourceTree = "<group>"; };
+		AC69E73F2A7FCC0CAD18FB96F4B4FC48 /* BombKitPromoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitPromoModel.m; sourceTree = "<group>"; };
+		B515646DC7C1F7E74129E44ED607B435 /* BombKitLocationModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitLocationModel.h; sourceTree = "<group>"; };
+		B6BD60323F627A299F7C0E0C86847E0F /* BombKitUserReviewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitUserReviewModel.m; sourceTree = "<group>"; };
+		B71395038A1B2F2175C0EBE02937812A /* BombKitGameRatingModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitGameRatingModel.h; sourceTree = "<group>"; };
+		B771D3251285A19344ED1A14A32FA29D /* BombRequestBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombRequestBuilder.h; sourceTree = "<group>"; };
+		BB90201D0E970A52D4B8A3F80029F690 /* BombKitConceptModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitConceptModel.h; sourceTree = "<group>"; };
+		C04B7A881FFB82F089B0DE5F98C2B808 /* BombKitVideoTypeModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitVideoTypeModel.h; sourceTree = "<group>"; };
+		C5585EC886ECE5C5FA5EE32B1AC18A33 /* Pods-BombKit-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BombKit-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C68EFC0B5F5E4CF2E5626255B49DB286 /* libPods-BombKit-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BombKit-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BF5AF285233E36D7056BB5F07F78E6 /* Pods-BombKit-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BombKit-Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA81AED3577A3D55939A8E97DAF046AF /* BombKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BombKit.xcconfig; sourceTree = "<group>"; };
+		CE12810B08308F087CD22D13E684F305 /* BombBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombBaseModel.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA170B4234C48A7082049ECD58AA25D1 /* Pods-BombKit-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BombKit-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE89988DDC9E0EEBDA64200020FA6DD9 /* BombKitUserReviewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitUserReviewModel.h; sourceTree = "<group>"; };
+		E15C8D343B989A373D6BBFD2E2D8CB2A /* BombKitRegionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitRegionModel.h; sourceTree = "<group>"; };
+		EAE90FDF949CCAD85C785DBCA6F199B3 /* BombKitObjectModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitObjectModel.h; sourceTree = "<group>"; };
+		EB6457829F304389817E2A7259AD10E9 /* BombKitCharacterModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitCharacterModel.h; sourceTree = "<group>"; };
+		EBD7B5EC89190FD6D18D42D627A62D73 /* BombKitAccessoryModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitAccessoryModel.m; sourceTree = "<group>"; };
+		EDAFD9C4A784D5EE788F32DA02439E33 /* BombKitGameRatingModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitGameRatingModel.m; sourceTree = "<group>"; };
+		F1A4368AFB56422DFE66EFA6FC41F2B4 /* BombKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BombKit-prefix.pch"; sourceTree = "<group>"; };
+		F26ED33A945FADC1BC3716982C5C0FEF /* BombKitAccessoryModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitAccessoryModel.h; sourceTree = "<group>"; };
+		F4A4551AD9898DD3D164ED80EA815174 /* BombKitObjectModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitObjectModel.m; sourceTree = "<group>"; };
+		F5EBEBA991E9697BF6E17F3920389C3A /* BombKitVideoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombKitVideoModel.h; sourceTree = "<group>"; };
+		F98A65E171A71429E714C116FA745505 /* BombRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BombRequest.h; sourceTree = "<group>"; };
+		FCEBBB7219DCDC66F11EF4D03D9FBB20 /* BombKitChatModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombKitChatModel.m; sourceTree = "<group>"; };
+		FFC8AE26A62DA0B2A8AD2CD35D89051B /* BombRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BombRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		684CAC8084EC771BB3071F6C379E9F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247DD2C686B8BFFFF59DFAD809C9974A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFB163C940786B8CAD802B4BD919986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87343E46CBB9E21A7520C8CC3B10F230 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D211B3DF01952F422450DA0AD7DBDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B2360DCE46BEA2184C6D843864E3C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A9B31349781691CBBB98CC66383993 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE12810B08308F087CD22D13E684F305 /* BombBaseModel.h */,
+				8049E17CEA2B27EBD1383EFDC9C10B07 /* BombBaseModel.m */,
+				1AD127A1230BDA16ECC44754BC9F1989 /* BombBaseModel+Private.h */,
+				34504F809A29DE485530F40EC5612C6F /* BombBaseModel+Private.m */,
+				74942F0BE1EB58C6E8ED5146587B0832 /* BombKit.h */,
+				F26ED33A945FADC1BC3716982C5C0FEF /* BombKitAccessoryModel.h */,
+				EBD7B5EC89190FD6D18D42D627A62D73 /* BombKitAccessoryModel.m */,
+				EB6457829F304389817E2A7259AD10E9 /* BombKitCharacterModel.h */,
+				53D23F8668E3BDA2701CAD36292E9857 /* BombKitCharacterModel.m */,
+				77EA5A5C2F088DD4066094AF63C9BCB6 /* BombKitChatModel.h */,
+				FCEBBB7219DCDC66F11EF4D03D9FBB20 /* BombKitChatModel.m */,
+				9F1BD34A2091A3A3B25B62CF979B69C3 /* BombKitCompanyModel.h */,
+				0CA2C5BE37D38571F358690C5217E858 /* BombKitCompanyModel.m */,
+				BB90201D0E970A52D4B8A3F80029F690 /* BombKitConceptModel.h */,
+				6FF0B84EA916DC8AA2037C6EFA0C0431 /* BombKitConceptModel.m */,
+				3DC3A03CFD51F54539130A00BE3DB07B /* BombKitConstant.h */,
+				39D3DD9579B14B2984366A00924549C0 /* BombKitConstant.m */,
+				3D3B0E4F6681F83E19F0E65E56B52D84 /* BombKitFranchiseModel.h */,
+				809E54DD1F12BCDD866A9A2AE1C9DE29 /* BombKitFranchiseModel.m */,
+				7F7701BE8153CA7526CBBE32FF2F587E /* BombKitGameModel.h */,
+				8358312772DB4B4D230B03A31F15DFC9 /* BombKitGameModel.m */,
+				B71395038A1B2F2175C0EBE02937812A /* BombKitGameRatingModel.h */,
+				EDAFD9C4A784D5EE788F32DA02439E33 /* BombKitGameRatingModel.m */,
+				720A5C38661A030ECBACFDC9855DF734 /* BombKitGenreModel.h */,
+				745EFBB4FB5B6BF3FD5550D8A5025DA0 /* BombKitGenreModel.m */,
+				744B6DF1B19E05B02F9F15B1D8C9B0C6 /* BombKitImageModel.h */,
+				7394549CA329035F635868DB415A7BAC /* BombKitImageModel.m */,
+				B515646DC7C1F7E74129E44ED607B435 /* BombKitLocationModel.h */,
+				A199860F779BC2CCE5847F2DF82DCB16 /* BombKitLocationModel.m */,
+				1E145F9B7FEF915FD5E54413DB4D2E89 /* BombKitModel.h */,
+				69EBDE691C6D9E5F5A3A631CBD6E2646 /* BombKitModelFactory.h */,
+				7E54FF4EBD5747EBF1A1D463CE8D6220 /* BombKitModelFactory.m */,
+				EAE90FDF949CCAD85C785DBCA6F199B3 /* BombKitObjectModel.h */,
+				F4A4551AD9898DD3D164ED80EA815174 /* BombKitObjectModel.m */,
+				7231BA82E0E5C3586A93DED4F84919ED /* BombKitPersonModel.h */,
+				5DD5FCA3B750D2575CF8A38170307D7E /* BombKitPersonModel.m */,
+				433091CA38805468C00712AF4A213516 /* BombKitPlatformModel.h */,
+				73757C9468AEAA797A9EC76CB1E92DF3 /* BombKitPlatformModel.m */,
+				23F44262BDFC175616552950D6A801BA /* BombKitPromoModel.h */,
+				AC69E73F2A7FCC0CAD18FB96F4B4FC48 /* BombKitPromoModel.m */,
+				11E05D98F0023D2C1CA89BA5F6C52452 /* BombKitRatingBoardModel.h */,
+				3375E188F8358D7FE550061AB677BF6F /* BombKitRatingBoardModel.m */,
+				E15C8D343B989A373D6BBFD2E2D8CB2A /* BombKitRegionModel.h */,
+				74E7A823B9A9EF49A3111CA6C1C3E2BF /* BombKitRegionModel.m */,
+				5BEDEC80A3D7722508FC50ED9E3970EB /* BombKitReleaseModel.h */,
+				24DBD820E0B6DFB950B00E88B16E5BC0 /* BombKitReleaseModel.m */,
+				A62147F2E467D8585131F79A76F97DAC /* BombKitReviewModel.h */,
+				59CE07701DDEB734C818E6B2D8921D82 /* BombKitReviewModel.m */,
+				1C0606D9A5CCCD408B2CA5F38BA229ED /* BombKitThemeModel.h */,
+				86328D30BC562C1C209BB086DCCF50B2 /* BombKitThemeModel.m */,
+				A26180426326585FB16AC057DA50B4EA /* BombKitTypesModel.h */,
+				831738FDA7BD1B10E535EE4F5BCFAFA6 /* BombKitTypesModel.m */,
+				DE89988DDC9E0EEBDA64200020FA6DD9 /* BombKitUserReviewModel.h */,
+				B6BD60323F627A299F7C0E0C86847E0F /* BombKitUserReviewModel.m */,
+				F5EBEBA991E9697BF6E17F3920389C3A /* BombKitVideoModel.h */,
+				96BB2702207407B373625EBB4C58991A /* BombKitVideoModel.m */,
+				8F210451D3BA7514C7FB060DB3EE9BBA /* BombKitVideoShowModel.h */,
+				4B923728BD6EFDC784613D8D18575B42 /* BombKitVideoShowModel.m */,
+				C04B7A881FFB82F089B0DE5F98C2B808 /* BombKitVideoTypeModel.h */,
+				55E33225EDC859C9244F6595DE3A9285 /* BombKitVideoTypeModel.m */,
+				F98A65E171A71429E714C116FA745505 /* BombRequest.h */,
+				FFC8AE26A62DA0B2A8AD2CD35D89051B /* BombRequest.m */,
+				B771D3251285A19344ED1A14A32FA29D /* BombRequestBuilder.h */,
+				820C3A7B53FEADA0B69178665A1B1CEE /* BombRequestBuilder.m */,
+				250AD7A3D3DCDB7041393306549917DF /* NSError+BombKit.h */,
+				5C045562C4BE7C4C4DD4D7305BAAD37A /* NSError+BombKit.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2A6CEB0327C0BE26CFCAC5C87C943166 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56C365F9E9B8BFACDD61FC1EC723F79F /* Pods-BombKit-Example */,
+				C97A0AF148F93157BA1FFD52F5828625 /* Pods-BombKit-ExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		56C365F9E9B8BFACDD61FC1EC723F79F /* Pods-BombKit-Example */ = {
+			isa = PBXGroup;
+			children = (
+				DA170B4234C48A7082049ECD58AA25D1 /* Pods-BombKit-Example-acknowledgements.markdown */,
+				C5585EC886ECE5C5FA5EE32B1AC18A33 /* Pods-BombKit-Example-acknowledgements.plist */,
+				3563C66BD98B96AC20833DD30DCDFAD8 /* Pods-BombKit-Example-dummy.m */,
+				C9BF5AF285233E36D7056BB5F07F78E6 /* Pods-BombKit-Example-frameworks.sh */,
+				51DE79EC05A6853CFC91832387C83952 /* Pods-BombKit-Example-resources.sh */,
+				58EC181AA2839ECCC988DBDB1B49A336 /* Pods-BombKit-Example.debug.xcconfig */,
+				689236FE3EC25775D8D154C305C93F16 /* Pods-BombKit-Example.release.xcconfig */,
+			);
+			name = "Pods-BombKit-Example";
+			path = "Target Support Files/Pods-BombKit-Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AB229AE194A559FEF2A9ADE8634B277E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FD0A74B9176CA1DD81567FE74CC9AB86 /* Products */,
+				2A6CEB0327C0BE26CFCAC5C87C943166 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AB229AE194A559FEF2A9ADE8634B277E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC293F1DBAD05580E93DBF11079A8E39 /* BombKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AC293F1DBAD05580E93DBF11079A8E39 /* BombKit */ = {
+			isa = PBXGroup;
+			children = (
+				21A9B31349781691CBBB98CC66383993 /* Classes */,
+				DDF9A917B77C0F53C85DF225A9787577 /* Support Files */,
+			);
+			name = BombKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C97A0AF148F93157BA1FFD52F5828625 /* Pods-BombKit-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				555C921182B25151CA5C000E05EB48A4 /* Pods-BombKit-ExampleTests-acknowledgements.markdown */,
+				22DC1D1A6AD8A74BA0997618DA838DBC /* Pods-BombKit-ExampleTests-acknowledgements.plist */,
+				A0D103A443C539C525EEA78F0FFC9C21 /* Pods-BombKit-ExampleTests-dummy.m */,
+				288CDF5C8BBDD37A919812F1D469F6BC /* Pods-BombKit-ExampleTests-frameworks.sh */,
+				8BCFCA0AB6E7FE4CBC6DB2952C37F980 /* Pods-BombKit-ExampleTests-resources.sh */,
+				6FC2F1969AF5B7A3ED3DAF8DE679BA07 /* Pods-BombKit-ExampleTests.debug.xcconfig */,
+				5CDF1047425FF8C789C30E032AA31C8F /* Pods-BombKit-ExampleTests.release.xcconfig */,
+			);
+			name = "Pods-BombKit-ExampleTests";
+			path = "Target Support Files/Pods-BombKit-ExampleTests";
+			sourceTree = "<group>";
+		};
+		DDF9A917B77C0F53C85DF225A9787577 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA81AED3577A3D55939A8E97DAF046AF /* BombKit.xcconfig */,
+				146149314D7C2FD72629235FF9E191D6 /* BombKit-dummy.m */,
+				F1A4368AFB56422DFE66EFA6FC41F2B4 /* BombKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BombKit";
+			sourceTree = "<group>";
+		};
+		FD0A74B9176CA1DD81567FE74CC9AB86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05EDBABB38F05FB70CC08FCC74D06E0A /* libBombKit.a */,
+				56FCC1A2D43314C0A889E59644544DFA /* libPods-BombKit-Example.a */,
+				C68EFC0B5F5E4CF2E5626255B49DB286 /* libPods-BombKit-ExampleTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66905D7A28F421E3B502E7AB34F67C6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E279A8F8F6B909C666187B45507411 /* BombBaseModel+Private.h in Headers */,
+				39235F66D9515DA062AAEB567B4005EF /* BombBaseModel.h in Headers */,
+				B2B21FAC6BC053CC122344B687A3E266 /* BombKit.h in Headers */,
+				E7F66893958A8A1866CB05BB2B9B66A2 /* BombKitAccessoryModel.h in Headers */,
+				7D5158EED89C1D4F05BEB27908279546 /* BombKitCharacterModel.h in Headers */,
+				82545500DE2AB032DDA4D26CF865A196 /* BombKitChatModel.h in Headers */,
+				3CB7A64E4C183DB9155C42BDF69F2C9E /* BombKitCompanyModel.h in Headers */,
+				F38753624E164B9D469B41C49F6D26B8 /* BombKitConceptModel.h in Headers */,
+				7BCACCAB3090FDDACEA86BDAC9C4F492 /* BombKitConstant.h in Headers */,
+				5CA69C7F0269EE5F179F57A5EFBCE1C2 /* BombKitFranchiseModel.h in Headers */,
+				D33902F974FB6E5F4EF73698EC58D303 /* BombKitGameModel.h in Headers */,
+				8C2BAB0849111150045817B7244F91E8 /* BombKitGameRatingModel.h in Headers */,
+				88DAAC215D6400AEFAEDBF0347114E70 /* BombKitGenreModel.h in Headers */,
+				7B507E4E0024B52290A86F0DB388904A /* BombKitImageModel.h in Headers */,
+				543764E636FDAADA6BA5A00CCE92A892 /* BombKitLocationModel.h in Headers */,
+				197DDCDADC1BEF2A8D1347C7133FD773 /* BombKitModel.h in Headers */,
+				0646E2FB27E0F06610C5573B338E5724 /* BombKitModelFactory.h in Headers */,
+				DA6C523D948CD55C4D0FEBD5405E3F18 /* BombKitObjectModel.h in Headers */,
+				6C1353D1B0B417CB110939D967899837 /* BombKitPersonModel.h in Headers */,
+				5B3320F7472015961AF15BA29BF64E1B /* BombKitPlatformModel.h in Headers */,
+				4806EA2647CF81228AEFC0C4DE749781 /* BombKitPromoModel.h in Headers */,
+				DEFC106E458129A84D8080074B243485 /* BombKitRatingBoardModel.h in Headers */,
+				8D443363855C902C0BD50BE4353090C4 /* BombKitRegionModel.h in Headers */,
+				29613DDAE2E4D71D2A4FF580D7B4149D /* BombKitReleaseModel.h in Headers */,
+				F42DF166AD0414958D68B1FFC5C492B3 /* BombKitReviewModel.h in Headers */,
+				8450C96B6442F21B70BD4F859DAD2E98 /* BombKitThemeModel.h in Headers */,
+				C124F13CFA9E2471AED45CE1EF222932 /* BombKitTypesModel.h in Headers */,
+				BA3C1CC65D3FE251D704751135FF3F35 /* BombKitUserReviewModel.h in Headers */,
+				2E3A745F0D0647CBB884D35BD7CACB2A /* BombKitVideoModel.h in Headers */,
+				2897C5D027275DBB70911655D56C4977 /* BombKitVideoShowModel.h in Headers */,
+				3056236D2E04CB9990B80D0A41868AE1 /* BombKitVideoTypeModel.h in Headers */,
+				B39EB1C3F248F7E0F0A906CC4BFD9051 /* BombRequest.h in Headers */,
+				5CE8C7B96CA76289A72D803702191975 /* BombRequestBuilder.h in Headers */,
+				915A01B20E76BC930A6A3EAF0F947541 /* NSError+BombKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7087F5BCFD9AE529097B30739C621710 /* Pods-BombKit-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B195A743715F91A3CB31C72BA8254E1 /* Build configuration list for PBXNativeTarget "Pods-BombKit-ExampleTests" */;
+			buildPhases = (
+				1AF43E9293E552069A90164B6EEDC901 /* Sources */,
+				8AFB163C940786B8CAD802B4BD919986 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BombKit-ExampleTests";
+			productName = "Pods-BombKit-ExampleTests";
+			productReference = C68EFC0B5F5E4CF2E5626255B49DB286 /* libPods-BombKit-ExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E97DB2837BC2F71E52E1BC6B2CA34F33 /* Pods-BombKit-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47886D1C8AFC6BC6FF1F7F39BCD1B267 /* Build configuration list for PBXNativeTarget "Pods-BombKit-Example" */;
+			buildPhases = (
+				A0DDEB259EB5A4342299AC4560B4ED92 /* Sources */,
+				D211B3DF01952F422450DA0AD7DBDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13BF0BD1E90ECE43F34FE8BADC2F28E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-BombKit-Example";
+			productName = "Pods-BombKit-Example";
+			productReference = 56FCC1A2D43314C0A889E59644544DFA /* libPods-BombKit-Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F149C73D512A7AF8E6D672C35B03AE28 /* BombKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9933C0B61008E9D739DEFCF7BD0DD8D6 /* Build configuration list for PBXNativeTarget "BombKit" */;
+			buildPhases = (
+				B852955CC4CCD8CE9363A4A3FC125000 /* Sources */,
+				684CAC8084EC771BB3071F6C379E9F11 /* Frameworks */,
+				66905D7A28F421E3B502E7AB34F67C6A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BombKit;
+			productName = BombKit;
+			productReference = 05EDBABB38F05FB70CC08FCC74D06E0A /* libBombKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FD0A74B9176CA1DD81567FE74CC9AB86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F149C73D512A7AF8E6D672C35B03AE28 /* BombKit */,
+				E97DB2837BC2F71E52E1BC6B2CA34F33 /* Pods-BombKit-Example */,
+				7087F5BCFD9AE529097B30739C621710 /* Pods-BombKit-ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AF43E9293E552069A90164B6EEDC901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803186AD8AE8EA82AD7DDA780496593C /* Pods-BombKit-ExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DDEB259EB5A4342299AC4560B4ED92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672DAD5369A01FFC8FE83BE2FB1E0AF6 /* Pods-BombKit-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B852955CC4CCD8CE9363A4A3FC125000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1990212052B4519BA93A8FD01AFEA3A7 /* BombBaseModel+Private.m in Sources */,
+				0E48940CA32CB75ACC7B7FDDAF525B76 /* BombBaseModel.m in Sources */,
+				498FED13928D7BE59B81D5595C89AA73 /* BombKit-dummy.m in Sources */,
+				14B86D6173D00F99A1D9F21EC45848BB /* BombKitAccessoryModel.m in Sources */,
+				51172A324094BDAEB3797FE1FBE904AD /* BombKitCharacterModel.m in Sources */,
+				812C72E47C1B97531A97E76330D5D4DA /* BombKitChatModel.m in Sources */,
+				FA6AE09E79749CE8368A6EF186AF8CF8 /* BombKitCompanyModel.m in Sources */,
+				004CF8F5B8457B3334A7EC5D6A17E874 /* BombKitConceptModel.m in Sources */,
+				2226F151C1E3EEAD12F2C8DB8663BE33 /* BombKitConstant.m in Sources */,
+				69DC2CFB84DCECEA06B69F97D59C64EB /* BombKitFranchiseModel.m in Sources */,
+				893EB9D5AD6B34AE9A49CB2C98FCBA29 /* BombKitGameModel.m in Sources */,
+				0ACEBB9EB5502D6812955A90275D7155 /* BombKitGameRatingModel.m in Sources */,
+				EFF9732E19AA1BDB3376DD1A81E7459B /* BombKitGenreModel.m in Sources */,
+				031FE3B508CB87BE5206C4201AF94321 /* BombKitImageModel.m in Sources */,
+				0480A7D0A7845C2B781A803B5D568CB2 /* BombKitLocationModel.m in Sources */,
+				679B3FD187ECE185E5FB8EE1D483A67B /* BombKitModelFactory.m in Sources */,
+				09877E122C9B59C5F21F06C486E6993E /* BombKitObjectModel.m in Sources */,
+				8CAF44857E6D578792898753D5885D9E /* BombKitPersonModel.m in Sources */,
+				EB08AFABD7D385D10E9EACF2439247D2 /* BombKitPlatformModel.m in Sources */,
+				D6618121A845CA7AC6E6D228F44CA7F3 /* BombKitPromoModel.m in Sources */,
+				14251C0EFD8EA0E05035C55E117B62B1 /* BombKitRatingBoardModel.m in Sources */,
+				6D1D665B2EB396FE5FF8884BED4D44E6 /* BombKitRegionModel.m in Sources */,
+				0FA53907CD8A7EB21831421FCDDC1A64 /* BombKitReleaseModel.m in Sources */,
+				54725169B4E5D4CF22942ADE25A5C532 /* BombKitReviewModel.m in Sources */,
+				ACC47FE4CB89B0292FF7481BA8401B17 /* BombKitThemeModel.m in Sources */,
+				D38726FC296B5A42D11DA9CD8AE238E0 /* BombKitTypesModel.m in Sources */,
+				B7603974C6FD381DA3ECEACCCF8B9D3B /* BombKitUserReviewModel.m in Sources */,
+				E1132C6C5E92F2CD921324FC7E0F1A2E /* BombKitVideoModel.m in Sources */,
+				E0EF7E2DB20D76B4C6B57CF8979EB9A0 /* BombKitVideoShowModel.m in Sources */,
+				F8A056DA810213CE35A865EE91ACD38B /* BombKitVideoTypeModel.m in Sources */,
+				DB75C681C92ACE3A3942817AEEA26E92 /* BombRequest.m in Sources */,
+				6C0EDE1B4235CF2099975E166A038A1F /* BombRequestBuilder.m in Sources */,
+				3A480828EB47DA6D8545DD9358A5DFAC /* NSError+BombKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13BF0BD1E90ECE43F34FE8BADC2F28E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BombKit;
+			target = F149C73D512A7AF8E6D672C35B03AE28 /* BombKit */;
+			targetProxy = 4D5EC630F32E9C39F8F3754E967FAEBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04767480B6D33AA3D74B9854A790BC04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CDF1047425FF8C789C30E032AA31C8F /* Pods-BombKit-ExampleTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		05965EDE91D502629E29B2C674E59196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA81AED3577A3D55939A8E97DAF046AF /* BombKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BombKit/BombKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		758A2AEC9BE5C0F3DD4CACA3D6ABAA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58EC181AA2839ECCC988DBDB1B49A336 /* Pods-BombKit-Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8E7A036220FD74CABEAD88EE10123E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA81AED3577A3D55939A8E97DAF046AF /* BombKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BombKit/BombKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		96BFC75EE36446F4F7D515A7E5728C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC2F1969AF5B7A3ED3DAF8DE679BA07 /* Pods-BombKit-ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D280C60F936136407C9906BB21F4E4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689236FE3EC25775D8D154C305C93F16 /* Pods-BombKit-Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47886D1C8AFC6BC6FF1F7F39BCD1B267 /* Build configuration list for PBXNativeTarget "Pods-BombKit-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758A2AEC9BE5C0F3DD4CACA3D6ABAA63 /* Debug */,
+				D280C60F936136407C9906BB21F4E4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B195A743715F91A3CB31C72BA8254E1 /* Build configuration list for PBXNativeTarget "Pods-BombKit-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BFC75EE36446F4F7D515A7E5728C04 /* Debug */,
+				04767480B6D33AA3D74B9854A790BC04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9933C0B61008E9D739DEFCF7BD0DD8D6 /* Build configuration list for PBXNativeTarget "BombKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7A036220FD74CABEAD88EE10123E79 /* Debug */,
+				05965EDE91D502629E29B2C674E59196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

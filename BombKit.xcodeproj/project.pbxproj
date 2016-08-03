@@ -239,7 +239,7 @@
 
 /* Begin PBXFileReference section */
 		0E279E191CBB52E900F2582A /* BombKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BombKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E279E1C1CBB52E900F2582A /* BombKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BombKit.h; sourceTree = "<group>"; };
+		0E279E1C1CBB52E900F2582A /* BombKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BombKit.h; path = ../Classes/BombKit.h; sourceTree = "<group>"; };
 		0E279E1E1CBB52E900F2582A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E279E231CBB52E900F2582A /* BombKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BombKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E279E2A1CBB52E900F2582A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };

@@ -1,0 +1,16 @@
+PODS:
+  - BombKit (0.0.1)
+
+DEPENDENCIES:
+  - BombKit (from `../`)
+
+EXTERNAL SOURCES:
+  BombKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BombKit: bfbe864c14665847f7d1b4778574d934d856199d
+
+PODFILE CHECKSUM: c375af5d01645b6c2329d39d9e9ac5cf3e20baf8
+
+COCOAPODS: 1.0.0
